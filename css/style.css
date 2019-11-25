@@ -620,12 +620,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #00FF77;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
-  color: #fff;
+  background: #00FF77;
+  color: #000;
+  font-weight: bold;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -831,6 +832,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f82249;
   color: #fff;
 }
+
+#schedule .nav-tabs a.active:hover {
+  background-color: #c21736;
+  color: #fff;
+}
+
 #schedule .nav-tabs a:hover{
   background-color: #3aa7c1;
 }

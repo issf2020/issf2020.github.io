@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #ffe6ee;
+  background: #cdd5e8;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
@@ -32,6 +32,7 @@ p {
   padding: 0;
   margin: 0 0 30px 0;
 }
+
 
 h1,
 h2,
@@ -137,7 +138,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #ffe6ee;
+  background-color: #E4E4E4;
 }
 
 /*--------------------------------------------------------------
@@ -157,7 +158,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: #ffb6c1;
+  background: #2D344A;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -288,7 +289,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #06FFAC;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -477,7 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.75);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,13 +518,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #00FF77;
 }
 
 #intro p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
+}
+#intro p1 {
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 35px;
 }
 
 #intro .play-btn {
@@ -818,12 +824,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   background-color: #86c5d8;
   color: #fff;
-  padding: 10px 100px;
+  padding: 15px 25px;
 }
 
 #schedule .nav-tabs a.active {
   background-color: #f82249;
   color: #fff;
+}
+#schedule .nav-tabs a:hover{
+  background-color: #3aa7c1;
 }
 
 #schedule .sub-heading {
@@ -845,7 +854,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #fff;
+  background-color: #;
 }
 
 #schedule .schedule-item time {
@@ -1689,7 +1698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-feature-settings: 'liga';
 }
 /* Rules for sizing the icon. */
-.material-icons.md-10 { font-size: 10px; }
+.material-icons.md-15 { font-size: 15px; }
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }

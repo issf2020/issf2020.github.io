@@ -518,18 +518,44 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
+  font-size: 56px;
   color: #00FF77;
+}
+
+#intro h2 {
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
 }
+
 #intro p1 {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 18px;
+}
+
+#intro .alert {
+  color: #00FF77;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#intro .alert-success {
+    color: #00FF77;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#intro .alert-success .alert-link {
+    color: #00bf59;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 #intro .play-btn {
@@ -1608,7 +1634,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    background: rgba(6, 12, 34, 0);
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
@@ -1675,6 +1701,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+
+@media (min-width:0px) and (max-width: 568px) {
+  #intro h1 {
+    font-size: 150%;
+  }
+
+  #intro h1 span {
+    font-size: 150%;
+  }
+
+  #intro h2 {
+    font-size: 150%;
+  }
+
+  #intro p {
+    font-size: 80%
+  }
+
+  #intro p1 {
+    font-size: 80%;
+  }
+
+  #intro .alert {
+    font-size: 125%;
+  }
+
 }
 
 /*--------------------------------------------------------------

@@ -470,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../temp/S__20004866.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -478,7 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.75);
+  background: rgba(6, 12, 34, 0.25);
   position: absolute;
   bottom: 0;
   top: 0;

@@ -732,96 +732,106 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #programs {
-  padding: 60px 0 30px 0;
+  padding: 60px 0 60px 0;
 }
 
-#programs .program {
-  position: relative;
-  overflow: hidden;
+#programs .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
   margin-bottom: 30px;
 }
 
-#programs .program .details {
-  background: rgba(6, 12, 34, 0.76);
-  position: absolute;
-  left: 0;
-  bottom: -30px;
-  right: 0;
-  text-align: center;
-  padding-top: 10px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+#programs .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
 }
 
-#programs .program .details h3 {
+#programs .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #86c5d8;
   color: #fff;
-  font-size: 22px;
+  padding: 15px 25px;
+}
+
+#programs .nav-tabs a.active {
+  background-color: #f82249;
+  color: #fff;
+}
+
+#programs .nav-tabs a.active:hover {
+  background-color: #c21736;
+  color: #fff;
+}
+
+#programs .nav-tabs a:hover{
+  background-color: #3aa7c1;
+}
+
+#programs .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+#programs .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#programs .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#programs .schedule-item:hover {
+  background-color: #;
+}
+
+#programs .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#programs .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#programs .schedule-item .speaker img {
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#programs .schedule-item h4 {
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#programs .program .details p {
-  color: #fff;
-  font-size: 15px;
-  margin-bottom: 10px;
+#programs .schedule-item h4 span {
   font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
 }
 
-#programs .program .details .social {
-  height: 30px;
-}
-
-#programs .program .details a {
-  color: #fff;
-}
-
-#programs .program .details a:hover {
-  color: #f82249;
-}
-
-#programs .program:hover .details {
-  bottom: 0;
-}
-
-#programs-details {
-  padding: 60px 0;
-}
-
-#programs-details .details h2 {
-  color: #112363;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#programs-details .details .social {
-  margin-bottom: 15px;
-}
-
-#programs-details .details .social a {
-  background: #e9edfb;
-  color: #112363;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  padding-top: 9px;
-}
-
-#programs-details .details .social a:hover {
-  background: #f82249;
-  color: #fff;
-}
-
-#programs-details .details .social a i {
-  font-size: 18px;
-}
-
-#programs-details .details p {
-  color: #112363;
-  font-size: 15px;
-  margin-bottom: 10px;
+#programs .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -984,7 +994,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #;
+  background-color: #fff;
 }
 
 #schedule .schedule-item time {
@@ -1047,7 +1057,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/WangchanValleyMap.jfif") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1298,7 +1308,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe {
   padding: 60px;
-  background: url(../img/subscribe-bg.jpg) center center no-repeat;
+  background: url(../img/kvis-landscape.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;

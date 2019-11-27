@@ -768,6 +768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #programs .pp .nav-item {
   width: 100%;
+  font-size: 12px;
 }
 
 #programs .pp a.active {
@@ -850,6 +851,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
+}
+
+#present .headd{
+  font-size: 14px;
+}
+
+#present .info {
+  font-size: 12px;
+}
+
+#present .obj {
+  border: 1px solid #fff;
+}
+
+#present .obje {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+#present .room {
+  border-bottom: 1px solid #ccc;
+}
+
+#present .rule {
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1854,6 +1880,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 125%;
   }
 
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /*--------------------------------------------------------------

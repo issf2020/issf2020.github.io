@@ -470,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../temp/S__20004866.jpg) top center;
+  background: url(../temp/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -755,6 +755,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #86c5d8;
   color: #fff;
   padding: 15px 25px;
+}
+
+#programs .pp a {
+  border: none;
+  border-radius: 0px;
+  font-weight: 600;
+  background-color: #86c5d8;
+  color: #fff;
+  padding: 10px 0px 10px 5px;
+}
+
+#programs .pp .nav-item {
+  width: 100%;
+}
+
+#programs .pp a.active {
+  background-color: #f82249;
+  color: #fff;
 }
 
 #programs .nav-tabs a.active {

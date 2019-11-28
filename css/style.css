@@ -762,6 +762,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 0px;
   font-weight: 600;
+  font-size: 12px;
   background-color: #86c5d8;
   color: #fff;
   padding: 10px 0px 10px 5px;
@@ -777,11 +778,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 3px;
   padding-right: 3px;
 }
-
-#programs .category-item a {
-  font-size: 12px;
-}
-
 
 #programs .pp .nav-item {
   width: 100%;

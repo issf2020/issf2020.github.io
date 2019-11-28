@@ -778,6 +778,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 3px;
 }
 
+#programs .category-item a {
+  font-size: 12px;
+}
+
+
 #programs .pp .nav-item {
   width: 100%;
   font-size: 12px;

@@ -743,6 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+
 #programs .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
@@ -754,7 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   background-color: #86c5d8;
   color: #fff;
-  padding: 15px 25px;
+  padding: 12px 22px;
 }
 
 #programs .pp a {
@@ -764,6 +765,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #86c5d8;
   color: #fff;
   padding: 10px 0px 10px 5px;
+}
+
+#programs .nav-item {
+  padding: 3px;
 }
 
 #programs .pp .nav-item {
@@ -989,6 +994,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   border-bottom: 0;
   margin-bottom: 30px;
+}
+
+#schedule .nav-item {
+  padding: 3px;
 }
 
 #schedule .nav-tabs li {

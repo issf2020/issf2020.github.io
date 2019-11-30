@@ -758,6 +758,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 12px 22px;
 }
 
+#programs a[aria-expanded="true"]{
+  background-color: #f8234a;
+}
+
+#programs a[aria-expanded="true"] h5{
+  color: #fff;
+}
+
 #programs .pp a {
   border: none;
   border-radius: 0px;
@@ -775,8 +783,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #programs .category-item {
   font-size: 12px;
   padding-top: 0px;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #programs .category-item a {

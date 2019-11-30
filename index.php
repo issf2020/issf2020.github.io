@@ -160,7 +160,7 @@
               <div class="col-md-2"><time>09:00 - 17:00</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="img\icon\food_black.png" alt="Check-in">
+                  <img src="img\icon\check-in.png" alt="Check-in">
                 </div>
                 <h4>Arrrival, Register, and Check-in</h4>
                 <p>Dormitory - B4</p>
@@ -171,7 +171,7 @@
               <div class="col-md-2"><time>09:00 - 17:00</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="img\icon\register_black.png" alt="Meet Buddies">
+                  <img src="img\icon\closing_ceremony.png" alt="Meet Buddies">
                 </div>
                 <h4>Meet Buddies</h4>
                 <p>Dormitory - B4</p>
@@ -182,7 +182,7 @@
               <div class="col-md-2"><time>09:00 - 17:00</time></div>
               <div class="col-md-10">
               <div class="speaker">
-                <img src="img\icon\meeting_black.png" alt="Preparation for Present">
+                <img src="img\icon\molecule_black.png" alt="Preparation for Present">
               </div>
 
                 <h4>Preparation for Poster Presentation</h4>
@@ -194,7 +194,7 @@
               <div class="col-md-2"><time>15:00 - 18:30</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="img\icon\opening_ceremony.png" alt="Thai culture & Dinner">
+                  <img src="img\icon\thaidance.png" alt="Thai culture & Dinner">
                 </div>
 
                 <h4>Thai Culture & Dinner</h4>
@@ -206,7 +206,7 @@
               <div class="col-md-2"><time>18:45</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="img\icon\food_black.png" alt="Gater in auditoriumt">
+                  <img src="img\icon\meeting_black.png" alt="Gater in auditoriumt">
                 </div>
                 <h4>Gather in the Thongchai Chewprecha Auditorium</h4>
                 <p>Thongchai Chewprecha Auditorium</p>
@@ -612,6 +612,7 @@
 
           </div>
           <!-- End Excursions -->
+
           <!-- Teachers -->
           <div role="tabpanel" class="col-lg-9 tab-pane fade" id="teachers" style="background-color: #f0f8ff;">
             <p>Principal's program</p>
@@ -621,17 +622,386 @@
 
           </div>
           <!-- End teachers -->
+
           <!--Presentation-->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade" id="present" style="background-color: #f0f8ff;">
+          <div role="tabpanel" class="col-lg-12 tab-pane fade" id="present" style="background-color: #fff;">
 
-            <img src="schedules\presentation.jpg" alt="Poster and Presentations" height="100%" width="100%">
+            <div class="row">
+              <div class="col-lg-2" style="padding: 0;">
+                <!--categories -->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"><h5 style="margin: 5px 5px 10px 5px;">Categories</h5></a>
+                <ul class="nav pp dropdown-menu collapse" aria-labelledby="navbarDropdown" role="tablist">
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link active" href="#physics" role="tab" data-toggle="tab">Physics</a>
+                  </li>
+                  <li class="col-6 col-lg-12  category-item">
+                    <a class="nav-link" href="#chem" role="tab" data-toggle="tab">Chemistry</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#bio" role="tab" data-toggle="tab">Biology</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#math" role="tab" data-toggle="tab">Mathematics</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#comsci" role="tab" data-toggle="tab">Computer Science</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#engi" role="tab" data-toggle="tab">Engineering</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#matsci" role="tab" data-toggle="tab">Materials Science</a>
+                  </li>
+                  <li class="col-6 col-lg-12 category-item">
+                    <a class="nav-link" href="#Envisci" role="tab" data-toggle="tab">Environmental Science</a>
+                  </li>
+                </ul>
+                <br>
+              </div>
 
+              <!--details -->
+              <div class="col-lg-7 col-md-12">
+                <h5 style="margin: 5px 5px 10px 5px;">Details</h5>
+
+                <div class="tab-content row">
+                  <!--physics-->
+                  <div role="tabpanel" class="col-12 tab-pane fade show active" id="physics" style="background-color: #fff;">
+                    <div>
+                      <b>Physics</b>
+                    </div>
+
+                    <row class="row headd" style="background-color: pink">
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6 obj" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </row>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--end phy-->
+
+                  <!--chem-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="chem" style="background-color: #fff;">
+                    <div>
+                      <b>Chemistry</b>
+                    </div>
+
+                    <div class="row headd" style="background-color: pink">
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6 obj" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+                  </div>
+                  <!--end chem-->
+
+                  <!--bio-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="bio" style="background-color: #fff;">
+                    <div>
+                      <b obj>Biology</b>
+                    </div>
+
+                    <div class="row headd" style="background-color: pink">
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6 obj" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+                  </div>
+                  <!--end bio-->
+
+                  <!--maths-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="math" style="background-color: #f0f8ff;">
+                    <div>
+                      <b>Mathematics</b>
+                    </div>
+
+                    <div class="row headd" style="background-color: pink">
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6 obj" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2 obj" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+
+                    <div class="row info">
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        09:00 - 09:15
+                      </div>
+                      <div class="col-2 obje" style="padding: 0px 5px;">
+                        PHY01A
+                      </div>
+                      <div class="col-6 obje" style="padding: 0px 5px;">
+                        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+                        <br>
+                        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+                      </div>
+                      <div class="col-2 room" style="padding: 0px 5px;">
+                        MB-212
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--end maths-->
+
+                  <!--comsci-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="comsci" style="background-color: #f0f8ff;">
+                    <div>
+                      <b>Computer Science</b>
+                    </div>
+
+                    <div class="row" style="background-color: pink">
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--end comsci-->
+
+                  <!--engi-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="engi" style="background-color: #f0f8ff;">
+                    <div>
+                      <b>Engineer</b>
+                    </div>
+
+                    <div class="row" style="background-color: pink">
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--end Engi-->
+
+                  <!--Matsci-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="matsci" style="background-color: #f0f8ff;">
+                    <div>
+                      <b>Materials Science</b>
+                    </div>
+
+                    <div class="row" style="background-color: pink">
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+                  </div>
+                  <!--end Matsci-->
+
+                  <!--Envisci-->
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="Envisci" style="background-color: #f0f8ff;">
+                    <div>
+                      <b>Environmental Science</b>
+                    </div>
+                    <div class="row" style="background-color: pink">
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Time
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Code
+                      </div>
+                      <div class="col-6" style="padding: 0px 5px;">
+                        Name
+                      </div>
+                      <div class="col-2" style="padding: 0px 5px;">
+                        Room
+                      </div>
+                    </div>
+                  </div>
+                  <!--end Envisci-->
+
+                </div>
+                <br>
+              </div>
+
+              <div class="col-lg-3 col-12 rule">
+                <h5 style="margin: 5px 5px 10px 5px;">Rules</h5>
+                <div>
+                  <b>Poster Presenters</b>
+                  <p>After registration, students should contact their buddies as soon as possible for instructions on
+how to prepare and install posters.
+The poster venue is in the KVIS Academic Resources Center on the 3rd floor. On December er 6th
+(Thursday), all students presenting posters are required to be at your own poster from 13:00-
+16:30 to present your work, answer questions, and make discussion with juries and all
+participants.</p>
+                  <b>Oral Presenters</b>
+                  <p>Oral presentations will be held in classrooms on the 2nd and 3rd floors of the main building.
+Each presenter will have 10 minutes for presentation and 5 minutes for Q&A. You may contact
+your buddy if you need additional equipment besides the projector.
+The oral presentations are divided into 6 categories. Each project in category will have a
+project code and will be presented in different rooms at the times shown in the following
+table. You should be in your room at least 15 minutes before your presentation time. After
+registration, students should contact their buddies as soon as possible for instructions on how
+to prepare and install posters.</p>
+                </div>
+              </div>
+          </div>
           </div>
           <!--end present-->
           <!--sciact-->
           <div role="tabpanel" class="col-lg-9 tab-pane fade" id="sciact" style="background-color: #f0f8ff;">
 
-            <img src="schedules\sciact.jpg" alt="Science Activities" height="100%" width="100%">
+            <img src="schedules\sciact.png" alt="Science Activities" height="100%" width="100%">
 
           </div>
           <!--end sciact-->
@@ -1400,6 +1770,9 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>

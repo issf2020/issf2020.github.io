@@ -766,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#programs .pp a {
+#programs .pp .category-item a {
   border: none;
   border-radius: 0px;
   font-weight: 600;
@@ -797,7 +797,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 12px;
 }
 
-#programs .pp a.active {
+#programs .pp .category-item a.active {
   background-color: #f82249;
   color: #fff;
 }

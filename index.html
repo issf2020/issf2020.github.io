@@ -627,12 +627,17 @@
           <div role="tabpanel" class="col-lg-12 tab-pane fade" id="present" style="background-color: #fff;">
 
             <div class="row">
-              <div class="col-lg-2" style="padding: 0;">
+              <div class="col-lg-3" style="padding: 0;">
                 <!--categories -->
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"><h5 style="margin: 5px 5px 10px 5px;">Categories</h5></a>
+                <ul class="nav pp">
+                  <li class="col-6 col-lg-12" style="padding: 0px;">
+                    <a class="nav-link" href="#rules" role="tab" data-toggle="tab"><h5 style="margin: 5px 5px 10px 5px;">Rules</h5></a>
+                  </li>
+                  <div class="col-6 col-lg-12" style="padding: 0px">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"><h5 style="margin: 5px 5px 10px 5px;">Categories</h5></a>
                 <ul class="nav pp dropdown-menu collapse" aria-labelledby="navbarDropdown" role="tablist">
                   <li class="col-6 col-lg-12 category-item">
-                    <a class="nav-link active" href="#physics" role="tab" data-toggle="tab">Physics</a>
+                    <a class="nav-link" href="#physics" role="tab" data-toggle="tab">Physics</a>
                   </li>
                   <li class="col-6 col-lg-12  category-item">
                     <a class="nav-link" href="#chem" role="tab" data-toggle="tab">Chemistry</a>
@@ -658,14 +663,16 @@
                 </ul>
                 <br>
               </div>
+            </ul>
+              </div>
 
               <!--details -->
-              <div class="col-lg-7 col-md-12">
+              <div class="col-lg-9 col-md-12">
                 <h5 style="margin: 5px 5px 10px 5px;">Details</h5>
 
                 <div class="tab-content row">
                   <!--physics-->
-                  <div role="tabpanel" class="col-12 tab-pane fade show active" id="physics" style="background-color: #fff;">
+                  <div role="tabpanel" class="col-12 tab-pane fade" id="physics" style="background-color: #fff;">
                     <div>
                       <b>Physics</b>
                     </div>
@@ -969,11 +976,30 @@
                     </div>
                   </div>
                   <!--end Envisci-->
-
+                  <!--rules-->
+                  <div role="tabpanel" class="col-12 tab-pane fade show active" id="rules" style="background-color: #f0f8ff;">
+                    <b>Poster Presenters</b>
+                    <p>After registration, students should contact their buddies as soon as possible for instructions on
+  how to prepare and install posters.
+  The poster venue is in the KVIS Academic Resources Center on the 3rd floor. On December er 6th
+  (Thursday), all students presenting posters are required to be at your own poster from 13:00-
+  16:30 to present your work, answer questions, and make discussion with juries and all
+  participants.</p>
+                    <b>>Oral Presenters</b>
+                    <p>Oral presentations will be held in classrooms on the 2nd and 3rd floors of the main building.
+  Each presenter will have 10 minutes for presentation and 5 minutes for Q&A. You may contact
+  your buddy if you need additional equipment besides the projector.
+  The oral presentations are divided into 6 categories. Each project in category will have a
+  project code and will be presented in different rooms at the times shown in the following
+  table. You should be in your room at least 15 minutes before your presentation time. After
+  registration, students should contact their buddies as soon as possible for instructions on how
+  to prepare and install posters.</p>
                 </div>
+                <!--end rules-->
                 <br>
               </div>
-
+              </div>
+<!--
               <div class="col-lg-3 col-12 rule">
                 <h5 style="margin: 5px 5px 10px 5px;">Rules</h5>
                 <div>
@@ -995,6 +1021,7 @@ registration, students should contact their buddies as soon as possible for inst
 to prepare and install posters.</p>
                 </div>
               </div>
+            -->
           </div>
           </div>
           <!--end present-->

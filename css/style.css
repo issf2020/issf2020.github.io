@@ -905,6 +905,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
+#sciact .btn {
+  border-color: #fff;
+}
+
 .nav-link:hover{
   background-color: #ccc;
 }

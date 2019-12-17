@@ -976,3 +976,22 @@
   </div>
 -->
 </div>
+
+
+
+    <!--==========================
+      Newsletter Section
+    ============================-->
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Register your Interest</h2>
+        </div>
+
+        <br>
+        <div class = "d-flex justify-content-center col-md-12 col-lg-12">
+          <a href = "ImportantDocuments.html" target="_blank"><button>Important Documents</button></a>
+        </div>
+
+      </div>
+    </section>

@@ -653,6 +653,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
 }
 
+#intro .moreinfo-btn {
+  border: 0;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #f82249;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+#intro .moreinfo-btn:hover {
+  background: #e0072f;
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     -webkit-transform: scale(0.6, 0.6);

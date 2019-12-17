@@ -553,9 +553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .alert-success .alert-link {
-    color: #00bf59;
-    background-color: transparent;
-    border-color: transparent;
+    color: #3aa7c1;
 }
 
 #intro .play-btn {

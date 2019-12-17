@@ -1,0 +1,373 @@
+#footer
+
+<div class="social-links">
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+
+<!-- Presentation tabs
+<li class="nav-item col-6 col-lg-12" style="border: none; padding: 0px">
+<a class="nav-link dropdown-toggle show" href="#" id="navbarDropdown" data-toggle="dropdown"><h5 style="margin: 5px 5px 10px 5px;">Categories</h5></a>
+<div class="pp dropdown-menu collapse" aria-labelledby="navbarDropdown" role="tablist">
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="nav-link" aria-selected="false" href="#physics" role="tab" data-toggle="tab">Physics</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#chem" role="tab" data-toggle="tab">Chemistry</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#bio" role="tab" data-toggle="tab">Biology</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#math" role="tab" data-toggle="tab">Mathematics</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#comsci" role="tab" data-toggle="tab">Computer Science</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#engi" role="tab" data-toggle="tab">Engineering</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#matsci" role="tab" data-toggle="tab">Materials Science</a>
+</span>
+<span class="col-6 col-lg-12 category-item dropdown-item">
+  <a class="dropdown-item" href="#Envisci" role="tab" data-toggle="tab">Environmental Science</a>
+</span>
+</div>
+<br>
+</li>
+-->
+
+<div class="tab-content row">
+
+  <!--physics-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="physics" style="background-color: #fff;">
+    <div>
+      <b>Physics</b>
+    </div>
+
+    <row class="row headd" style="background-color: pink">
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6 obj" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Room
+      </div>
+    </row>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+
+  </div>
+  <!--end phy-->
+
+  <!--chem-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="chem" style="background-color: #fff;">
+    <div>
+      <b>Chemistry</b>
+    </div>
+
+    <div class="row headd" style="background-color: pink">
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6 obj" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+  </div>
+  <!--end chem-->
+
+  <!--bio-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="bio" style="background-color: #fff;">
+    <div>
+      <b obj>Biology</b>
+    </div>
+
+    <div class="row headd" style="background-color: pink">
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6 obj" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+  </div>
+  <!--end bio-->
+
+  <!--maths-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="math" style="background-color: #f0f8ff;">
+    <div>
+      <b>Mathematics</b>
+    </div>
+
+    <div class="row headd" style="background-color: pink">
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6 obj" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2 obj" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        09:00 - 09:15
+      </div>
+      <div class="col-2 obje" style="padding: 0px 5px;">
+        PHY01A
+      </div>
+      <div class="col-6 obje" style="padding: 0px 5px;">
+        Enthalpy and entropy of sorption of light hydrocarbons on the layer of polymer metathesis poly
+        <br>
+        (3-{tributoxysilyl} tricyclonomen-7) by invere gas chromatography
+      </div>
+      <div class="col-2 room" style="padding: 0px 5px;">
+        MB-212
+      </div>
+    </div>
+
+  </div>
+  <!--end maths-->
+
+  <!--comsci-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="comsci" style="background-color: #f0f8ff;">
+    <div>
+      <b>Computer Science</b>
+    </div>
+
+    <div class="row" style="background-color: pink">
+      <div class="col-2" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+
+  </div>
+  <!--end comsci-->
+
+  <!--engi-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="engi" style="background-color: #f0f8ff;">
+    <div>
+      <b>Engineering</b>
+    </div>
+
+    <div class="row" style="background-color: pink">
+      <div class="col-2" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+
+  </div>
+  <!--end Engi-->
+
+  <!--Matsci-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="matsci" style="background-color: #f0f8ff;">
+    <div>
+      <b>Materials Science</b>
+    </div>
+
+    <div class="row" style="background-color: pink">
+      <div class="col-2" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+  </div>
+  <!--end Matsci-->
+
+  <!--Envisci-->
+  <div role="tabpanel" class="col-12 tab-pane fade" id="Envisci" style="background-color: #f0f8ff;">
+    <div>
+      <b>Environmental Science</b>
+    </div>
+    <div class="row" style="background-color: pink">
+      <div class="col-2" style="padding: 0px 5px;">
+        Time
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Code
+      </div>
+      <div class="col-6" style="padding: 0px 5px;">
+        Name
+      </div>
+      <div class="col-2" style="padding: 0px 5px;">
+        Room
+      </div>
+    </div>
+  </div>
+
+  <!--
+                <div class="col-lg-3 col-12 rule">
+                  <h5 style="margin: 5px 5px 10px 5px;">Rules</h5>
+                  <div>
+                    <b>Poster Presenters</b>
+                    <p>After registration, students should contact their buddies as soon as possible for instructions on
+  how to prepare and install posters.
+  The poster venue is in the KVIS Academic Resources Center on the 3rd floor. On December er 6th
+  (Thursday), all students presenting posters are required to be at your own poster from 13:00-
+  16:30 to present your work, answer questions, and make discussion with juries and all
+  participants.</p>
+                    <b>Oral Presenters</b>
+                    <p>Oral presentations will be held in classrooms on the 2nd and 3rd floors of the main building.
+  Each presenter will have 10 minutes for presentation and 5 minutes for Q&A. You may contact
+  your buddy if you need additional equipment besides the projector.
+  The oral presentations are divided into 6 categories. Each project in category will have a
+  project code and will be presented in different rooms at the times shown in the following
+  table. You should be in your room at least 15 minutes before your presentation time. After
+  registration, students should contact their buddies as soon as possible for instructions on how
+  to prepare and install posters.</p>
+                  </div>
+                </div>
+              -->

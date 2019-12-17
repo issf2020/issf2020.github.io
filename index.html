@@ -43,14 +43,30 @@
       }
       $(window).load(function(){
         $('#myModal').modal('show');
-        window.setTimeout(hide_modal, 4500);
+        window.setTimeout(hide_modal, 8000);
       });
 
     </script>
-
   </head>
 
 <body>
+  <!-- Add Modal (Auto show when loading this page) -->
+  <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Preparation Guide</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+
+              <div class="modal-body">
+                  <img src="img\1-1_PrepareGuide-01.png" alt="Excursions" height="100%" width="100%">
+                  <a href = "documents\Preparation-Guide_17122019.pdf" target="_blank" class="moreinfo-btn">More information</a>
+                  <p></p>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <!--==========================
     Header
@@ -74,6 +90,7 @@
           <!-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
+
     </div>
   </header><!-- #header -->
 
@@ -92,23 +109,6 @@
       </div>
 
       <a href="#about" class="about-btn scrollto">About The Event</a>
-
-      <div id="myModal" class="modal fade">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Preparation Guide</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  </div>
-
-                  <div class="modal-body">
-      				        <img src="img\1-1_PrepareGuide-01.png" alt="Excursions" height="100%" width="100%">
-                      <a href = "documents\Preparation-Guide_17122019.pdf" target="_blank" class="moreinfo-btn">More information</a>
-                      <p></p>
-                  </div>
-              </div>
-          </div>
-      </div>
 
     </div>
   </section>

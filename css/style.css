@@ -921,6 +921,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sciact .btn {
   border-color: #fff;
+  font-size: 0.5rem;
 }
 
 .nav-link:hover{

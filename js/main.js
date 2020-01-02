@@ -2,7 +2,7 @@ jQuery(document).ready(function( $ ) {
 
   // Back to top button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 500) {
       $('.back-to-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
@@ -11,6 +11,15 @@ jQuery(document).ready(function( $ ) {
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
+  });
+
+  $('.update-log').show();
+  $(window).scroll(function() {
+    if ($(this).scrollTop() < 500) {
+      $('.update-log').fadeIn('slow');
+    } else {
+      $('.update-log').fadeOut('slow');
+    }
   });
 
   // Header fixed on scroll

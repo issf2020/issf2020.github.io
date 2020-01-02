@@ -84,6 +84,20 @@ h6 {
   transition: background 0.5s ease-in-out;
 }
 
+.update-log {
+  position: fixed;
+  display: none;
+  background: #fff;
+  color: #00b554;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s ease-in-out;
+}
+
 .back-to-top i {
   font-size: 24px;
   padding-top: 6px;
@@ -98,6 +112,39 @@ h6 {
 .back-to-top:hover {
   background: #e0072f;
   color: #fff;
+}
+
+.update-log span {
+  font-size: 24px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.update-log i {
+  font-size: 24px;
+  padding-top: 7px;
+  padding-left: 0px;
+}
+
+.update-log:focus {
+  background: #bdbdbd;
+  color: #009445;
+  outline: none;
+}
+
+.update-log:hover {
+  background: #bdbdbd;
+  color: #009445;
+}
+
+#HW_badge_cont {
+  position: relative !important;
+  right: 10px;
+  bottom: 50px;
+}
+
+#HW_badge {
+  background: #5ab987 !important;
 }
 
 /* Sections Header
@@ -509,6 +556,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
+#intro ul {
+  align-items: center;
+}
+
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -695,10 +746,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
-
-#HW_badge_cont {
-  position: absolute !important;
 }
 
 
@@ -951,7 +998,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: 0px;
   right: 0;
   text-align: center;
   padding-top: 10px;
@@ -1709,7 +1756,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #00ff77;
 }
 
 #footer .footer-top .footer-links {
@@ -1724,7 +1771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #00ff77;
   font-size: 18px;
 }
 
@@ -1880,6 +1927,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 15px;
   }
 
+  .update-log {
+    bottom: 15px;
+  }
+
   #faq #faq-list a {
     font-size: 18px;
   }
@@ -1914,7 +1965,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-@media (min-width:0px) and (max-width: 568px) {
+@media (min-width:0px) and (max-width: 580px) { /* For Lower resolution Screen */
   #intro h1 {
     font-size: 150%;
   }
@@ -1937,6 +1988,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #intro .alert {
     font-size: 125%;
+  }
+
+  #intro .about-btn {
+    font-size: 0.8rem;
+    padding: 8px 28px;
   }
 
 }

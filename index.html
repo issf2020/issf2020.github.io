@@ -34,7 +34,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script async src="https://cdn.headwayapp.co/widget.js"></script>
-    <script>
+    <script> // For Automated Modal
       function show_modal(){
           $('#myModal').modal('show');
       }
@@ -48,28 +48,18 @@
       });
 
     </script>
-
-    <script>
-      // @see https://docs.headwayapp.co/widget for more configuration options.
+    <script> //For Changelog
           let HW_config = {
             selector: ".badgeCont",
             trigger:  ".toggleWidget",
             account: "JVOePy",
             translations: {
-              title: "The Changelog",
+              title: "In case you missed it...",
               readMore: "Read more",
-              labels: {
-                "new": "News",
-                "improvement": "Updates",
-                "fix": "Fixes"
-              },
-            footer: "Read more 👉"
+              footer: "All Updates"
             }
           };
-
-
     </script>
-
 
   </head>
 
@@ -99,7 +89,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html#intro" class="scrollto"><img src="img\logo\kvis_white.png" alt="" title=""></a>
+        <a href="index.html#intro" class="scrollto"><img src="img\logo\kvis_vistec_white.png" alt="" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -127,24 +117,19 @@
       <h1 class="mb-0 pb-0"><span>ISSF 2020</span><br><h2><b>16<sup>th</sup> International Students’ Science Fair</font></b></h2></h1>
       <p1 class="mb-0 pb-0">Kamnoetvidya Science Academy, Thailand<br>15-20 January 2020</p>
 
-        <div id="main-nav">
-          <a class="toggleWidget" href="#">
-            <span class="badgeCont">
-              <span id="HW_badge_cont" class="HW_visible">
-                <span id="HW_badge" data-count-unseen="" class="HW_softHidden"></span>
-              </span>
-            </span>
-            <span class="changelogTerm">Release notes</span>
-          </a>
-        </nav>
+        <h2><span id="demo">13 Days  13H 21M 40S </span></h2>
+            <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: auto;">
+              <li class="nav-item col-auto">
+                <a href="http://app.kvis.ac.th/issf2020/#about" class="about-btn scrollto">About The Event</a>
+              </li>
+              <li class="nav-item col-auto">
+                <a href="http://app.kvis.ac.th/issf2020/news.html" class="about-btn scrollto">News</a>
+              </li>
+              <li class="nav-item col-auto">
+                <a href="http://app.kvis.ac.th/issf2020/gallery.html" class="about-btn scrollto">Gallery</a>
+              </li>
+            </ul>
 
-        <div class="alert alert-success" role="alert">
-          The 2<sup>nd</sup> news of ISSF 2020 is now avaliable. <a href="news.html" class="alert-link">Click here</a> to read it.
-        </div>
-
-      <a href="#about" class="about-btn scrollto">About The Event</a>
-
-    </div>
   </section>
 
   <main id="main">
@@ -172,6 +157,7 @@
 
       <div class="container">
         <div class="row">
+          <p></p>
           <div class="col-md-12">
             <h2>Featured video</h2>
             <video width="100%" height="100%" poster="img\video-thumbnail\01.png" controls>
@@ -694,10 +680,14 @@
                       cannot be used in conjunction with a light source, as it becomes an open flame<br>
                       3.11 Wet cell batteries
                       <br>
+                      <img src="img\messageImage_1.jpg" alt="Poster Guidelines" width="45%" height="300">
+                      <img src="img\messageImage_2.jpg" alt="Poster Guidelines" width="45%" height="300">
+                      <br>
+                      <br>
                       <b>Oral Presentation Guidelines</b><br>
-                      1. Presentation duration: Each project is allocated 10 minutes for presentation, and 5 minutes for Q & A with
+                      1. Presentation duration: Each project is allocated 10 minutes for presentation, and 5 minutes for Q &amp; A with
                       the audience. Please be well prepared. A moderator will interrupt if the presentation is found to be ill-prepared.<br>
-                      2. Slide submission: All presenters should submit their presentation files (NOT OVER 25 MB) by email issf.pt@kvis.ac.th in advance,
+                      2. Slide submission: All presenters should submit their presentation files (NOT OVER 25 MB) by email issf2020.pt@kvis.ac.th in advance,
                       no later than January 6th, 2020. In case of any file updates before the presentation,
                       presenters can redownload the slide with the registration session when you arrive and register
                       at KVIS on January 15th, 2020 from 13:00 – 15:00 hours and late register on January 16th, 2020 from 8:30 – 9:00 hours.<br>
@@ -713,7 +703,7 @@
                       7. Materials Science (MAT)<br>
                       8. Environmental Science (ENV)<br>
                       <b>Remark</b> Sessions may be subjected to change as deemed appropriate.
-                    </p>
+                    </be></p>
                 </div>
                 <!--end rules-->
                 <br>
@@ -807,10 +797,10 @@
         <div class="row">
           <div class="col-12 col-lg-4 offset-lg-4">
             <div class="speaker">
-                <a href="speaker-details.html"><img src="img/speakers/IndexPic.jpg" alt="Coming Soon" class="img justify-content-center" width="100%"></a>
+                <a href="speaker-details.html"><img src="img/speakers/IndexPic.jpg" alt="Assoc. Prof. Dr. Suchana Chavanich" class="img-fluid" width="100%"></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Dr. Suchana Chavanich</a></h3>
-                <p><br></p>
+                <h3><a href="speaker-details.html">Assoc. Prof. Dr. Suchana Chavanich</a></h3>
+                <p>Keynote Speaker</p>
               </div>
             </div>
           </div>
@@ -862,7 +852,7 @@
             <p>ISSF 2020 - 16<sup>th</sup> International Students' Science Fair <br>and KVIS ISF - 3<sup>rd</sup> KVIS Invitational Science Fair. </p>
             <p><br></p>
             <p><strong>Supported by</strong></p>
-            <img src="img\supporter_img_full.png" alt="supporters" style=" height:auto; width:100%;">
+            <img src="img\supporter1_new.png" alt="supporters" style=" height:auto; width:100%;">
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
@@ -910,6 +900,13 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+  <a href="#" class="update-log toggleWidget"><i class="material-icons">info</i>
+      <span class="badgeCont">
+        <span id="HW_badge_cont" class="HW_visible">
+          <span id="HW_badge" data-count-unseen="" class="HW_softHidden"></span>
+        </span>
+      </span>
+  </a>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

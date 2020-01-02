@@ -33,6 +33,7 @@
     <!-- Load Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async src="https://cdn.headwayapp.co/widget.js"></script>
     <script>
       function show_modal(){
           $('#myModal').modal('show');
@@ -47,6 +48,28 @@
       });
 
     </script>
+
+    <script>
+      // @see https://docs.headwayapp.co/widget for more configuration options.
+          let HW_config = {
+            selector: ".badgeCont",
+            trigger:  ".toggleWidget",
+            account: "JVOePy",
+            translations: {
+              title: "The Changelog",
+              readMore: "Read more",
+              labels: {
+                "new": "News",
+                "improvement": "Updates",
+                "fix": "Fixes"
+              },
+            footer: "Read more 👉"
+            }
+          };
+
+
+    </script>
+
 
   </head>
 
@@ -104,9 +127,20 @@
       <h1 class="mb-0 pb-0"><span>ISSF 2020</span><br><h2><b>16<sup>th</sup> International Students’ Science Fair</font></b></h2></h1>
       <p1 class="mb-0 pb-0">Kamnoetvidya Science Academy, Thailand<br>15-20 January 2020</p>
 
-      <div class="alert alert-success" role="alert">
-        The 2<sup>nd</sup> news of ISSF 2020 is now avaliable. <a href="news.html" class="alert-link">Click here</a> to read it.
-      </div>
+        <div id="main-nav">
+          <a class="toggleWidget" href="#">
+            <span class="badgeCont">
+              <span id="HW_badge_cont" class="HW_visible">
+                <span id="HW_badge" data-count-unseen="" class="HW_softHidden"></span>
+              </span>
+            </span>
+            <span class="changelogTerm">Release notes</span>
+          </a>
+        </nav>
+
+        <div class="alert alert-success" role="alert">
+          The 2<sup>nd</sup> news of ISSF 2020 is now avaliable. <a href="news.html" class="alert-link">Click here</a> to read it.
+        </div>
 
       <a href="#about" class="about-btn scrollto">About The Event</a>
 

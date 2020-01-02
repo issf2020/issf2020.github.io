@@ -697,6 +697,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+#HW_badge_cont {
+  position: absolute !important;
+}
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/

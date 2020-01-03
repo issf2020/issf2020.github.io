@@ -13,6 +13,7 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+  // Update log button
   $('.update-log').show();
   $(window).scroll(function() {
     if ($(this).scrollTop() < 500) {
@@ -23,12 +24,22 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Header fixed on scroll
+  let isScrolling = true;
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
-    } else {
-      $('#header').removeClass('header-scrolled');
-    }
+      if ($(window).scrollTop() >= 100 && isScrolling) {
+        $('#header').addClass('header-scrolled');
+        $("#logosite").fadeOut(250, function(){
+          $("#logosite").fadeIn(250).attr("src","img/logo/kvis_vistec_white.png");
+        });
+        isScrolling = false;
+      } else if ($(window).scrollTop() < 100 && !isScrolling) {
+        $('#header').removeClass('header-scrolled');
+        $("#logosite").fadeOut(250, function(){
+          $("#logosite").fadeIn(250).attr("src","img/logo/kvis_vistec_color-01.png");
+        });
+        isScrolling = true;
+      }
+
   });
 
   if ($(window).scrollTop() > 100) {

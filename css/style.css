@@ -143,6 +143,10 @@ h6 {
   bottom: 50px;
 }
 
+#HW_frame_cont {
+  max-width: 100%;
+}
+
 #HW_badge {
   background: #5ab987 !important;
 }
@@ -1966,16 +1970,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 @media (min-width:0px) and (max-width: 580px) { /* For Lower resolution Screen */
+  #intro .intro-container {
+    top: 80px;
+  }
+
   #intro h1 {
     font-size: 150%;
   }
 
   #intro h1 span {
-    font-size: 150%;
+    font-size: 130%;
   }
 
   #intro h2 {
-    font-size: 150%;
+    font-size: 140%;
   }
 
   #intro p {
@@ -1995,6 +2003,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 8px 28px;
   }
 
+  #intro img {
+  object-fit: scale-down;
+  max-width: 40%;
+  }
+
+  #myModal h4 {
+    font-size: 100%;
+  }
 }
 
 .videoWrapper {

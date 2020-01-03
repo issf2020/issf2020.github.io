@@ -23,7 +23,7 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  // Header fixed on scroll
+  // Header fixed on scroll + Change logo when scroll
   let isScrolling = true;
   $(window).scroll(function() {
       if ($(window).scrollTop() >= 100 && isScrolling) {
@@ -42,8 +42,10 @@ jQuery(document).ready(function( $ ) {
 
   });
 
+  // Fix bug when come back to the page and the location is not at the top.
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
+    $("#logosite").attr("src","img/logo/kvis_vistec_white.png");
   }
 
   // Real view height for mobile devices

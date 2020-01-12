@@ -75,7 +75,7 @@
 
               <div class="modal-body">
                   Click on Picture for More Information.
-                  <a href = "documents\Preparation-Guide_17122019.pdf"><img src="img\1-1_PrepareGuide-01.png" alt="Excursions" height="100%" width="100%"></a>
+                  <a href = "documents\Pre-departure_Information.pdf"><img src="img\doc\predep_modal.png" alt="Excursions" height="100%" width="100%"></a>
                   <p></p>
               </div>
           </div>
@@ -113,7 +113,7 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <img class = "md-6" src="img\logo\issf2020_color_nodate.png" alt="ISSF 2020" width="150" height="150"><br>
+      <img class = "md-6 issflogo" src="img\logo\issf2020_color_nodate.png" alt="ISSF 2020" width="150" height="150"><br>
       <h1 class="mb-0 pb-0"><span>ISSF 2020</span><br><h2><b>16<sup>th</sup> International Students’ Science Fair</font></b></h2></h1>
       <p1 class="mb-0 pb-0">Kamnoetvidya Science Academy, Thailand<br>15-20 January 2020</p>
 
@@ -140,17 +140,21 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <h2>About ISSF 2020</h2>
             <p>KVIS is proud to be a member of the ISSN. We are delighted to have the opportunity to host the ISSF 2020 to be part of KVIS 5th Anniversary.</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <h3>Where</h3>
             <p>Kamnoetvidya Science Academy, Thailand</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <h3>When</h3>
             <p>Wednesday to Monday<br>15-20 January</p>
+          </div>
+		  <div class="col-lg-3">
+            <h3>PARTICIPANTS</h3>
+            <a href="documents/Participants.pdf" ><p>List of participating schools <i class="material-icons md-24">info</i></p></a>
           </div>
         </div>
       </div>
@@ -605,13 +609,16 @@
         </div>
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#Excursions" role="tab" data-toggle="tab">Field trips & Excursions</a>
+            <a class="nav-link active" href="#Excursions" role="tab" data-toggle="tab">Excursions</a><!--Field trips & -->
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#Principal" role="tab" data-toggle="tab">Principals’ Program</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#teachers" role="tab" data-toggle="tab">Teachers' Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#present" role="tab" data-toggle="tab">Poster and Presentations Rules</a>
+            <a class="nav-link" href="#present" role="tab" data-toggle="tab">Poster & Presentation</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sciact" role="tab" data-toggle="tab">Scientific Activities</a>
@@ -628,10 +635,23 @@
           </div>
           <!-- End Excursions -->
 
+		  <!-- Principal’s Program -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="Principal" style="background-color: #f0f8ff;">
+
+            <img src="img\schedule-thumbnail\Principal program__Page_1.jpg" alt="principal's program" width="100%">
+			<img src="img\schedule-thumbnail\Principal program__Page_3.jpg" alt="principal's program" width="100%">
+			<img src="img\schedule-thumbnail\Principal program__Page_4.jpg" alt="principal's program" width="100%">
+			<img src="img\schedule-thumbnail\Principal program__Page_5.jpg" alt="principal's program" width="100%">
+			<img src="img\schedule-thumbnail\Principal program__Page_6.jpg" alt="principal's program" width="100%">
+
+          </div>
+          <!-- End Principal’s Program -->
+
           <!-- Teachers -->
           <div role="tabpanel" class="col-lg-9 tab-pane fade" id="teachers" style="background-color: #f0f8ff;">
             <!-- <img src="schedule\principal_program.jpg" alt="principal's program" width="100%"> -->
-            <img src="img\schedule-thumbnail\ISSF2020_teacher_16122019_page-0001.jpg" alt="teacher's program" width="100%">
+            <img src="img\schedule-thumbnail\TSS_1.png" alt="teacher's program" width="100%">
+			<img src="img\schedule-thumbnail\TSS_2.png" alt="teacher's program" width="100%">
 
           </div>
           <!-- End teachers -->
@@ -853,6 +873,15 @@
             <p><br></p>
             <p><strong>Supported by</strong></p>
             <img src="img\supporter1_new.png" alt="supporters" style=" height:auto; width:100%;">
+			<p>BECTHAI Bangkok Equipment & Chemical Co., Ltd.</br>
+			Design Alternative Co., Ltd.</br>
+			Dhipaya Insurance Public Co.,Ltd.</br>
+			Business Services Alliance Co.,Ltd.</br>
+			C.C.Content Commercial Co.,Ltd.</br>
+			Coax Group Corporation Ltd. </br>
+			Metrohm Siam Co., Ltd.</br>
+			Pneumax Co.,Ltd.</br>
+			Thairath Hardware Part., Ltd.</p>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
@@ -861,9 +890,9 @@
               <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="about-KVIS.html">About us</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="ImportantDocuments.html">Important Documents</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://www.kvis.ac.th/">KVIS Websites</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://www.kvis.ac.th/">KVIS Website</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="https://www.facebook.com/kvisofficial/">KVIS Facebook</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://www.vistec.ac.th/">VISTEC Websites</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://www.vistec.ac.th/">VISTEC Website</a></li>
             </ul>
           </div>
 

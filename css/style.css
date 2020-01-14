@@ -836,6 +836,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#programs a[aria-expanded="true"] h6{
+  color: #fff;
+}
+
 #programs .pp .category-item a {
   border: none;
   border-radius: 0px;

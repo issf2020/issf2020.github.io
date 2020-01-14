@@ -1004,10 +1004,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #present .obje {
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
+  background-color: #fff;
 }
 
 #present .room {
   border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#present .break {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #ccc;
 }
 
 #present .rule {

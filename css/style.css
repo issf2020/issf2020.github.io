@@ -464,6 +464,28 @@ h6 {
   outline: none;
 }
 
+#mobile-nav li .buy-tickets {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  border: 2px solid #f82249;
+  font-weight: 500;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+#mobile-nav li .buy-tickets:hover {
+  color: #fff;
+  background: none;
+}
+
+#mobile-nav.nav-menu li.buy-tickets:hover,
+#mobile-nav.nav-menu li.buy-tickets.menu-active {
+  visibility: hidden;
+}
+
+
 #mobile-nav ul li a:hover {
   color: #f82249;
 }

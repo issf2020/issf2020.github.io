@@ -398,7 +398,7 @@
                 <div class="speaker">
                   <img src="img\icon\oral_presentation_black.png" alt="Oral Presentation">
                 </div>
-                <h4>Oral Presentation</h4>
+                <a href = "schedules\all-schedules\Presentation_timetable.pdf"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
                 <p>Main Building - 2<sup>nd</sup> & 3<sup>rd</sup> Floor</p>
               </div>
             </div>
@@ -420,7 +420,7 @@
                 <div class="speaker">
                   <img src="img\icon\oral_presentation_black.png" alt="Oral Presentation">
                 </div>
-                <h4>Oral Presentation</h4>
+                <a href = "schedules\all-schedules\Presentation_timetable.pdf"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
                 <p>Main Building - 2<sup>nd</sup> & 3<sup>rd</sup> Floor</p>
               </div>
             </div>
@@ -869,20 +869,26 @@
             <img src="img\logo\2logo-01.png" alt="issf 2020 & 3rd isf" style=" height:auto; width:35%;">
             <p>ISSF 2020 - 16<sup>th</sup> International Students' Science Fair <br>and KVIS ISF - 3<sup>rd</sup> KVIS Invitational Science Fair. </p>
             <p><br></p>
-            <p><strong>Supported by</strong></p>
-            <img src="img\supporter1_new.png" alt="supporters" style=" height:auto; width:100%;">
-			<p>BECTHAI Bangkok Equipment & Chemical Co., Ltd.</br>
-			Design Alternative Co., Ltd.</br>
-			Dhipaya Insurance Public Co.,Ltd.</br>
-			Business Services Alliance Co.,Ltd.</br>
-			C.C.Content Commercial Co.,Ltd.</br>
-			Coax Group Corporation Ltd. </br>
-			Metrohm Siam Co., Ltd.</br>
-			Pneumax Co.,Ltd.</br>
-			Thairath Hardware Part., Ltd.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <p><strong>Supported by</strong></p>
+            <img src="img\supporter1_new.png" alt="supporters" style=" height:auto; width:100%;">
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-info">
+			         <p>BECTHAI Bangkok Equipment & Chemical Co., Ltd.</br>
+			            Design Alternative Co., Ltd.</br>
+			            Dhipaya Insurance Public Co.,Ltd.</br>
+			            Business Services Alliance Co.,Ltd.</br>
+			            C.C.Content Commercial Co.,Ltd.</br>
+			            Coax Group Corporation Ltd. </br>
+			            Metrohm Siam Co., Ltd.</br>
+			            Pneumax Co.,Ltd.</br>
+			            Thairath Hardware Part., Ltd.</p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
@@ -894,7 +900,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-12 footer-contact">
+          <div class="col-lg-6 col-md-12 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Kamnoetvidya Science Academy <br>

@@ -851,15 +851,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #programs a[aria-expanded="true"]{
+  background-color: #fff;
+}
+
+#programs a[aria-expanded="true"]:hover
+{
   background-color: #f8234a;
 }
 
-#programs a[aria-expanded="true"] h5{
+#programs a[aria-expanded="true"]:hover h6
+{
   color: #fff;
 }
 
+#programs a[aria-expanded="true"] h5{
+  color: #2f3138;
+}
+
 #programs a[aria-expanded="true"] h6{
-  color: #fff;
+  color: #2f3138;
+  font-weight: bold;
 }
 
 #programs .pp .category-item a {

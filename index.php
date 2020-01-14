@@ -103,12 +103,12 @@
           <li><a href="#speakers">Speakers</a></li>
           <li><a href="#venue">Venue</a></li>
           <li><a href="#footer">Contact</a></li>
-          <!-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> -->
+          <li class="buy-tickets"><a class="buy-tickets" href="https://kvis-science-fair.web.app">Login</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
 
     </div>
-  </header><!-- #header -->
+  </header>
 
   <!--==========================
     Intro Section
@@ -238,7 +238,7 @@
                 <img src="img\icon\molecule_black.png" alt="Preparation for Presentation">
               </div>
                 <h4>Preparation for Poster Presentation</h4>
-                <p>Academic Resource Center</p>
+                <p>Poster Exhibition Hall</p>
               </div>
             </div>
 
@@ -398,7 +398,7 @@
                 <div class="speaker">
                   <img src="img\icon\oral_presentation_black.png" alt="Oral Presentation">
                 </div>
-                <a href = "schedules\all-schedules\Presentation_timetable.pdf"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
+                <a href = "#programs"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
                 <p>Main Building - 2<sup>nd</sup> & 3<sup>rd</sup> Floor</p>
               </div>
             </div>
@@ -420,7 +420,7 @@
                 <div class="speaker">
                   <img src="img\icon\oral_presentation_black.png" alt="Oral Presentation">
                 </div>
-                <a href = "schedules\all-schedules\Presentation_timetable.pdf"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
+                <a href = "#programs"><h4>Oral Presentation <i class="material-icons md-15">info</i> </h4> </a>
                 <p>Main Building - 2<sup>nd</sup> & 3<sup>rd</sup> Floor</p>
               </div>
             </div>
@@ -594,7 +594,7 @@
           </div>
             <!-- End Schdule Day 4 -->
         </div>
-        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 13 Jan 2020</span></h3>
+        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 14 Jan 2020</span></h3>
 
       </div>
 
@@ -660,19 +660,45 @@
             <div class="row">
               <div class="col-lg-3" style="padding: 0;">
                 <!--categories -->
-                <ul class="nav pp">
-                  <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
-                    <a class="nav-link" href="#rules" role="tab" data-toggle="tab"><h5 style="margin: 5px 5px 10px 5px;">Rules</h5></a>
-                  </li>
+                <div class="dropdown">
+                  <a class="btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" style="width: 100%; background-color: #f8234a; border-radius: 0px;"><h5 style="margin: 5px 5px 10px 5px; color: #fff;">Rules and Categories</h5></a>
+                  <ul class="nav pp dropdown-menu collapse">
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px; background-color: #ccc; color:black;">
+                      <a class="nav-link" href="#rules" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Rules</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#physics" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Physics</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#chemistry" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Chemistry</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#biology" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Biology</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#math" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Mathematics</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#comsci" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Computer Science</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#engineering" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Engineering</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#matsci" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Material Science</h5></a>
+                    </li>
+                    <li class="nav-item col-12 col-lg-12" style="padding: 0px;">
+                      <a class="nav-link" href="#envisci" role="tab" data-toggle="tab"><h6 style="margin: 5px 5px 10px 5px;">Environmental Science</h5></a>
+                    </li>
                   <!-- Presentation tabs -->
                 </ul>
               </div>
-
+            </div>
               <!--details -->
-              <div class="col-lg-9 col-md-12">
+              <div class="col-lg-9 col-md-12" style="padding: 0px;">
                 <!-- All presentation-->
                 <!--rules-->
-                <div role="tabpanel" class="col-12 tab-pane fade show active" id="rules" style="background-color: #f0f8ff;">
+                <div role="tabpanel" class="col-12 tab-pane fade show active collapse" id="rules" style="background-color: #f0f8ff;">
                     <p><font size="+2"><b>Presentation Guidelines</b></font><br>
                       <b>Poster Guidelines</b><br>
                       1. Poster Dimension: The usable area of poster board is 850 x 1200 mm (W x L).
@@ -724,6 +750,1844 @@
                     </be></p>
                 </div>
                 <!--end rules-->
+                <!--Physics-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="physics" style="background-color: #f0f8ff;">
+
+                  <div>
+                    <b>Physics</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Orbit Simulation by Using Fabric as Curved Spacetime</b>
+                      <br>
+                      S. Jongwattanapaiboon, P. Oupchan, J. Bonyanuson, P. Sirimachan
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Sound Intensification by Amplifying with Parabollic Reflectors</b>
+                      <br>
+                      N. Wadlom, T.Pullarp, P. Soontharanurak, M. Medhisuwakul
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Studying and modelling high-resistance layers of gallium nitride</b>
+                      <br>
+                      D. Vagin, A. Pavluchenko
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Investigation of the Effect of Temperature on the Speed of Light in Water</b>
+                      <br>
+                      S. Y. Ng, H. T. Tan
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>How many interstellar asteroids are in the Solar System at any given time?</b>
+                      <br>
+                      M. M. Smith, H. Greer, Hunter
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Microsphere Optical Nanoscope</b>
+                      <br>
+                      T. L. Y. Allysa
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Getting the scoop on Vanilloids; Nature’s favourite flavourings</b>
+                      <br>
+                      N. Hoccom, A. Kingshott, M. Clifford
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      243
+                    </div>
+                  </div>
+
+                </div>
+                <!--End physics-->
+                <!--Chemistry-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="chemistry" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Chemistry</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Synthesis of Activated Carbon Derived from Rice Husk using ZnCl₂ as Activating Agent for Heavy Metal Removal</b>
+                      <br>
+                      C. Boonyata, P. Trachai, T. Suwanratsamee, P. Pootawang
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Cost-Effective Modulator for Comprehensive Two-Dimensional Gas Chromatography</b>
+                      <br>
+                      S. Jongwattanapaiboon, P. Oupchan, J. Boonyanuson, P. Sirimachan
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Synthesis of vanillin-based porphyrins and their applications</b>
+                      <br>
+                      A. Kaennakham, P. Susangrat, P. Punyamung, P. Nalaoh
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Converting Biomass into Biofuel</b>
+                      <br>
+                      A. Giordano, E. Schmitt, M. Waechter, M. Hinchliffe
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Synthesis of Tryptamine Derivatives-Potential Antitumor Drugs</b>
+                      <br>
+                      P. Gurevich, Osipova
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Biodiesel</b>
+                      <br>
+                      K. T. Learning, Herm
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The Effect of Heating Time of Canola Oil on the Specific Heat Capacity of Biodiesel Produced</b>
+                      <br>
+                      P. Malik
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Hydrogen Gas Production from Durian Shell and Sheep Dung</b>
+                      <br>
+                      A. Tungwongkitsiri, S. Yoadsanit, S. Anantachaisilp
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      242
+                    </div>
+                  </div>
+
+                </div>
+                <!--End chemistry-->
+                <!--Biology-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="biology" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Biology</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Detection of long non-coding RNA in HIV-1 subtype CRF01_AE
+                         to explore possibilities of cure by reactivating latently infected cells </b>
+                      <br>
+                      P. Dechawichitlert, P. Powwattanasuk, P. Sinweeruthai, S. Wantanawijarn
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Effects of Genetic and Pharmacologic Loss of the Notch4 Receptor on Angiogenesis</b>
+                      <br>
+                      K. Thakkar, N. Adler
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of an antifungal bio-coating from mango kernel extract and
+                        chitosan against green mold rot on oranges </b>
+                      <br>
+                      N. Donfai, N. Muensri, T. Rungsriwattana, A. Thirach
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Subliminal Messages: From Myth to Reality</b>
+                      <br>
+                      E. Ahzan, T. Fazel, S. Yekrangi, S. Asgharian
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Analysis of possible functional conservation between genes Oxr1 and Ncoa7</b>
+                      <br>
+                      L. Kristina, D. Svistunova
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Localization of lamins during the cell cycle of mammalian cells that
+                        express human progerin </b>
+                      <br>
+                      U. Astashkina, S. Kurchashova
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Curing Sickle Cell Anaemia using CRISPR technology to edit the sickle cell mutation,
+                        GTG, into the normal red blood cell DNA sequence, GAG </b>
+                      <br>
+                      Z. Mozaffari, H. Sreelal, M. Pal
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Computational Analysis of Glucagon Receptor (GCGR) and Antagonist Structures for Further
+                        Screening Type 2 Anti-Diabetic Compounds </b>
+                      <br>
+                      T.Prucksikanont, C. Tritipchatsakun, P. danphitsanuparn
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The Diversity of Mesofauna as Bioindicator in Mangunan Protection Forest, Dlingo, Bantul, Yogyakarta, Indonesia</b>
+                      <br>
+                      K. I. Huda, V. H. Priyambodo, N. Rahmadhani, S. H. Poerwanto
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:30 - 11:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Emergency Hemostasis Gel for Inner and Outer Wound from Corn Husk Fiber</b>
+                      <br>
+                      E.Thaworn, P. Puanglumyai, O. Tuntoolavest, T. Leebongam
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:45 - 12:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Exploring Striatopallidal and IntrapallidalCircuitries in Relation to Parkinson's Disease</b>
+                      <br>
+                      S. Chalasani, Q. Cui
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Lunch----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:00 - 13:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>A Pill millipede Conglobation-inspired Motorcycle Design</b>
+                      <br>
+                      A. Prawarnpit, P. Thanareangamon, P. Chokijpaisarn, P. Danphitsanuparn
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:15 - 13:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Machine learning prediction of glioblastoma patient one-year survival using clinical and genomic data</b>
+                      <br>
+                      A. Du, J. Wu
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:30 - 13:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>FEASIBILITY TO EVALUATE EMOTIONAL REGULATION USING PHYSIOLOGICAL SENSORS</b>
+                      <br>
+                      P. Sasiangkul, S. Pinyo, T. Pongkemmanun, T. Leeboonngam
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:45 - 14:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of KIT for rapid and specific detection of Escherichia coli O157:H7</b>
+                      <br>
+                      M. H. Nguyen, P. T. Ngo
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:00 - 14:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of an Approach to the Visualization of Epigenetic Landscapes</b>
+                      <br>
+                      E. Kurkina
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:15 - 14:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Protective Effect of Bacopasides on 7-Ketocholesterol Induced Damage in Human Brain Endothelial Cells</b>
+                      <br>
+                      V.Teo
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:30 - 14:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The Effectivity of Placenta-derived Cord Blood in Alloxan-Induced Sprague Dawley Rats</b>
+                      <br>
+                      K. L. Colasito, Z. Gelua, J. M. Maligaya, Hipolito
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:45 - 15:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The use of microbial biotechnology in the extraction of precious metals from e-waste</b>
+                      <br>
+                      M. J. Senghore, B. J. Damisoni, P. A. Ngendo, Irudhayaraj
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      333
+                    </div>
+                  </div>
+
+                </div>
+                <!--End Biology-->
+                <!--Math-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="math" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Math</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Classes of Equally Likely Outcomes of a Riffle Shuffle on a Deck of Alternating Cards</b>
+                      <br>
+                      S. Kotchasarn, P. Khampheng, T. Thanodomdech
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Discovering the relationship between Euclid’s algorithm and the number of digits by focusing on the Fibonacci sequence</b>
+                      <br>
+                      K. Irie, T. Yasukawa
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Integer complexity: a new approach</b>
+                      <br>
+                      A. Mordosevich, N. Bashaev
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Ruin Probability with a Constant Premium Rate in a Financial Corporation Model</b>
+                      <br>
+                      R. Padungkiettiwong, S. Sirintronsopon, T. Vongvanich, T. Thanodomdech
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Study of Thai Artistic Patterns in terms of  Mathematical Functions</b>
+                      <br>
+                      N. Poolsawad, K. Sumetpipat
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>On the properties of knots and links constructed from planar graphs</b>
+                      <br>
+                      O. Kashurin
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Application of Infinite Series to Definite Integrals</b>
+                      <br>
+                      W. S. Hong, Dave
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>A Sharp Trigonometric Double Inequality</b>
+                      <br>
+                      K. Yongbeom, Yenny
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Factorization of finite groups into subsets</b>
+                      <br>
+                      R. Bildanov
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      212
+                    </div>
+                  </div>
+
+                </div>
+                <!--End Math-->
+                <!--Comsci-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="comsci" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Computer Science</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Traveling Salesman Problem with a Time-Dependent Edge Length of the Unrestricted Model</b>
+                      <br>
+                      K. Taveesak, G. Tassanasophon
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Proteins folding prediction using neural network</b>
+                      <br>
+                      M. Senina, P. Yakovlev
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Artificial Intelligence for Thai Fabric Patterns Generation Using Genetic Algorithm</b>
+                      <br>
+                      C. Thatasawakul, S. Sutthiwanna, T. Ittiphanitphong, K. Sumetpipat
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Image Analysis and Machine Learning For Scanning Electron Microscope Photography Classification of Fractures in Steel</b>
+                      <br>
+                      P. Tiyajamorn, P. Lorprasertkul, R. Assabumrungrat, A. Laoharenoo
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>BLOODSTAIN PATTERN ANALYSIS BY USING MACHINE LEARNING</b>
+                      <br>
+                      M. Preechatiwong, P. Lorprasertkul, K. Sawangsri
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Primary Study for the Announcement of the Automobile License Plate Through Image Processing</b>
+                      <br>
+                      N. Koesomboon, P. Phankingthongkum, P.Sukhum, A Mukngeon
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>A Novel Machine Learning Framework for Real Time Optimization of Taxi Dispatch Services</b>
+                      <br>
+                      S. Agrawal
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of a Website and Database System for the Biodiversity and Vulnerable Ecosystems Research (BiVER) Program</b>
+                      <br>
+                      S. A. Ripalda, M. S. B. Omisol
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Wifi-Controlled Irrigation System</b>
+                      <br>
+                      Monyroth, Pisoth
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:30 - 11:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of an iOS Application for Real-time Spectral Classification of Stars Based on a Convolutional Neural Network</b>
+                      <br>
+                      M. J. P. D. Santos, P. E. Evangelista, J. S. Ordonio
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:45 - 12:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Simulating the optimal city</b>
+                      <br>
+                      A. Yoneyama
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Lunch----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:00 - 13:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Edge-guided Anime Characters Generation</b>
+                      <br>
+                      K. Namekata
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:15 - 13:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Flow OS -Waterish --Water Usage Monitoring and Reporting Ecosystem</b>
+                      <br>
+                      S. Sirichai, P. Tainsri
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:30 - 13:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Study to increase the flying distance of UAV using solar panels</b>
+                      <br>
+                      R. Junwhi, K. Hyeonwoo, Y. Kim
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      213
+                    </div>
+                  </div>
+
+                </div>
+                <!--End comsci-->
+                <!--Engineering-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="engineering" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Engineering</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Aromatherapy Automatic Control System using Brain Computer Interface</b>
+                      <br>
+                      J. Hongfongfah, P. Disrattakit
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Xspine</b>
+                      <br>
+                      S. Sirawattanakul, N. Nantapinai
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Investigating the effect of electricity to the size of particle in suspension for reducing fouling in pipe</b>
+                      <br>
+                      K. Kamolram, P. Kumphun, T. Udsa, S. Warintaraporn
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Reversible Thermo-C fuse</b>
+                      <br>
+                      No name, S. Anantachaisilp
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Improving the Cost Efficiency of Atmospheric Water Harvesting</b>
+                      <br>
+                      E. Herbert, A. Gonzales
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Manipulating Varied Electrodes to Optimize Microbial Fuel Cells</b>
+                      <br>
+                      J. Castro, N. Pham, A. Gonzales
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Design of Dynamic Antifouling Surfaces using Protein Monolayer</b>
+                      <br>
+                      L. P. Yi
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Sensor to detect and improve improper posture</b>
+                      <br>
+                      E. van Dalen, A. Martens, I. van Grinsven, Hesselberth
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Intellectual notification system “Smart Window”</b>
+                      <br>
+                      I. Bondarenko, A. Kuznetsov
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      312
+                    </div>
+                  </div>
+
+                </div>
+                <!--End engineerings-->
+                <!--Material science-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="matsci" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Material Science</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Development of Composite Materials from Natural Rubber with
+                        Styrene-Butadiene Rubber and Coconut Husk to Apply as Neutron Particles and Gamma Rays Shields</b>
+                      <br>
+                      P. Dutsadeevettakul, M. Insuwan, K. Klaythong
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Effect of temperature on the hysteresis effect</b>
+                      <br>
+                      T. W. Zhi, Sean, C. K. Yang
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The investigation of bio-degradable plastic for the substrate of Lingzhimushroom spawn</b>
+                      <br>
+                      K. Chusen, S. Jinapangkas, T. Khowtanapanich, S. Warintaraporn
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Carbon Aerogel Derived from Watermelon Peel for Oil Spill Treatment</b>
+                      <br>
+                      C. Hasuwannakit, N. Kuakulkiat, T. Sae-wun, K. Sawangsri
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Self-Healing Rigid Polyurethane Foam Synthesis by Encapsulation Method</b>
+                      <br>
+                      N. Kerewanmas, N. Kongchu, J. Maneesan
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Developing the Efficiency of Photovoltaic Cell by Using Carbon Nanoparticle Instead of Dye</b>
+                      <br>
+                      T. Chunanant, N. Kongkaew, P. Tanalikhit, A. Khetubol
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>BIOPLASTICS PREPARATION FROM DURIAN PEEL’S CMC AND FLOURS USING TWIN SCREW EXTRUDER FOR BIODEGRADABLE FILM APPLICATION</b>
+                      <br>
+                      N. Natekuekool, P. Hiranayachatri, S. Nounjeen
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Eichhorniacrassipesas Tree-Free Paper Alternative</b>
+                      <br>
+                      F. A. Hosea, A. Permana
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Investigate in making Geopolymer as a green material, prioritizing to replace wood.</b>
+                      <br>
+                      N. M. Han, P. L. Vu
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      313
+                    </div>
+                  </div>
+
+                </div>
+                <!--End material science-->
+                <!--Environmental science-->
+                <div role="tabpanel" class="col-12 tab-pane fade collapse" id="envisci" style="background-color: #f0f8ff;">
+                  <div>
+                    <b>Environmental Science</b>
+                  </div>
+
+                  <row class="row headd" style="background-color: pink">
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Time
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Code
+                    </div>
+                    <div class="col-6 obj" style="padding: 0px 5px;">
+                      Name
+                    </div>
+                    <div class="col-2 obj" style="padding: 0px 5px;">
+                      Room
+                    </div>
+                  </row>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:00 - 09:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Oil Absorbent Material Based on Natural Rubber</b>
+                      <br>
+                      P. Sukjuntra, A. Chaisawat, N. Hayeemasae
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:15 - 09:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>The impact that plastic waste has on marine lives: an assessment of the impact on sea turtles</b>
+                      <br>
+                      Y. Funaki, I. Yamada, T. Yasukawa
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:30 - 09:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Can casein be used to make practical, single-use biodegradable plastic cutlery?</b>
+                      <br>
+                      K. Bardien, K. Thacker, P. Corkill
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      09:45 - 10:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Investigation of polyethylene degradation by Bacillus cereus using peptone extract from peanut shells</b>
+                      <br>
+                      T. Pattarawarin, T. Kraisarin, A. Suwanchatree, A. Thirach
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:00 - 10:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>What do students of the ASMS think of the Sense of Community at school and how does it compare to the current literature on Sense of Community?</b>
+                      <br>
+                      K. Gwatking
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Break----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:30 - 10:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Application of aerial imagery by UAV for fault surveys around Hatyai basin, Songkhla Province</b>
+                      <br>
+                      L. Lapinee, S. Jonjana
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      10:45 - 11:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Environmental Monitoring Through Probable Devices: A Case Study of Urban Mico-Ecological Research</b>
+                      <br>
+                      L. jiaYu, W. C. Cheng, C. K. Lok, L. K. Heng
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:00 - 11:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Australian Automatic Self-Irrigating System</b>
+                      <br>
+                      R. Cowley, R. Jammu, Y. Thanawala, F. Nagel
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:15 - 11:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Bioremediation of Heavy Metal Lead (Pb) and Copper (Cu) in the Lapindo Mudflow using Microalgae Chlorella pyrenoidosa</b>
+                      <br>
+                      B. Nathanael, J. Christopher, A. Permana
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:30 - 11:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Exploring the Use of Cattails as a Natural Fertilizer</b>
+                      <br>
+                      L. Teller, Teller
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      11:45 - 12:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Plasteriase: Mutating a Bacterial PET-degrading Enzyme</b>
+                      <br>
+                      O. Tsang, J. Lee, A. Tse, Yu
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                      <b>----------Lunch----------</b>
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:00 - 13:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Evaluation tools for distributed small-scaled plastic recycling systems</b>
+                      <br>
+                      X. Cheah
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:15 - 13:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>How to use natural zeolite for environmentally friendly purification of contaminated water</b>
+                      <br>
+                      R. Shibazaki, Takeda
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:30 - 13:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>How can the composting environment be manipulated to increase the efficiency of cotton composting?</b>
+                      <br>
+                      I. McClements
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      13:45 - 14:00
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>A study on the influence of jet stream on the quantitative characteristics of fine dust adsorbent components</b>
+                      <br>
+                      C. Park, D. Yoon, Juhwan, Kim
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:00 - 14:15
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Wastewater treatment and Charcoal kiln with dark smoke filtered box</b>
+                      <br>
+                      S. Silavongsith, A. Siharath, A. Shiharath
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:15 - 14:30
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>Seagrass Distribution Mapping of Cuatro Islas, Philippines</b>
+                      <br>
+                      J. L. G. Amores
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                  <div class="row info">
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      14:30 - 14:45
+                    </div>
+                    <div class="col-2 obje" style="padding: 0px 5px;">
+                      PHY01A
+                    </div>
+                    <div class="col-6 obje" style="padding: 0px 5px;">
+                      <b>CLIMATE CHANGE: THE VICIOUS CYCLE</b>
+                      <br>
+                      C. D. Yu, G. S. Tian, Candice, Lim
+                    </div>
+                    <div class="col-2 room" style="padding: 0px 5px;">
+                      332
+                    </div>
+                  </div>
+
+                </div>
+                <!--End environmental science-->
                 <br>
               </div>
             </div>

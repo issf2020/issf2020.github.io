@@ -854,12 +854,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
 }
 
-#programs a[aria-expanded="true"]:hover
+#programs a[aria-expanded="true"]:hover,
+#programs a[aria-expanded="true"]:active
 {
   background-color: #f8234a;
 }
 
-#programs a[aria-expanded="true"]:hover h6
+#programs a[aria-expanded="true"]:hover h6,
+#programs a[aria-expanded="true"]:active h6
 {
   color: #fff;
 }

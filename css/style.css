@@ -1140,6 +1140,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 60px 0;
 }
 
+#schedule iframe {
+  justify-content: center;
+}
+
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;

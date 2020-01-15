@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="kvis, issf, 2020, issf 2020, science, fair, invitational" name="keywords">
     <meta content="KVIS is proud to be a member of the ISSN. We are delighted to have the opportunity to host the ISSF 2020 to be part of KVIS 5th Anniversary." name="description">
-	<meta name="google-site-verification" content="vynmakD8O3iZ_xYtqlC-iUCFsstXADhuiwj4-c9cd0M" />
+	  <meta name="google-site-verification" content="vynmakD8O3iZ_xYtqlC-iUCFsstXADhuiwj4-c9cd0M" />
 
     <!-- Favicons -->
     <link href="img\logo\issf2020_color_nodate.png" rel="icon">
@@ -75,9 +75,8 @@
               </div>
 
               <div class="modal-body">
-                  Click on Picture for More Information.
-                  <a href = "documents\Pre-departure_Information.pdf"><img src="img\doc\predep_modal_1-2.png" alt="Excursions" height="100%" width="100%"></a>
-                  <br>There are more updates available at the lower-right corner of this page.
+                  <img src="img\resize_Banner_Welcome_issf2020.jpg" alt="Welcome" height="100%" width="100%"><p></p>
+                  <a href="recreational_activity.html"><img src="img\recreational\click_register_modal.png" alt="Welcome" height="100%" width="100%"></a>
                   <p></p>
               </div>
           </div>
@@ -131,6 +130,7 @@
                 <a href="gallery.html" class="about-btn scrollto">Gallery</a>
               </li>
             </ul>
+    </div>
 
   </section>
 
@@ -148,7 +148,9 @@
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
-            <p>Kamnoetvidya Science Academy, Thailand</p>
+            <p>Kamnoetvidya Science Academy, Thailand <br> </p>
+            <a href="documents/CampusMap.pdf"><p>Campus Map <i class="material-icons md-18">info</i></p></a>
+            <a href="documents/Building plan - ISSF2020.pdf"><p>Building Plan <i class="material-icons md-18">info</i></p></a>
           </div>
           <div class="col-lg-3">
             <h3>When</h3>
@@ -166,9 +168,8 @@
           <p></p>
           <div class="col-md-12">
             <h2>Featured video</h2>
-            <video width="100%" height="100%" poster="img\video-thumbnail\01.png" controls>
-              <source src="video\Credit_Init.mp4" type="video/mp4">
-            </video>
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="443" type="text/html"
+            src="https://www.youtube.com/embed/h42PJUd9Krc?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&hl=en&modestbranding=1&color=white"></iframe>
           </div>
         </div>
       </div>
@@ -248,7 +249,7 @@
                 <div class="speaker">
                   <img src="img\icon\thaidance.png" alt="Thai culture & Dinner">
                 </div>
-                <h4>Thai Culture & Dinner</h4>
+                <a href = "cultural_booth.html"><h4>Thai Culture & Dinner <i class="material-icons md-15">info</i> </h4> </a>
                 <p>In front of Auditorium Fl.1</p>
               </div>
             </div>
@@ -327,13 +328,10 @@
 
                 <div class="collapse" id="collapseExample">
                   <div class="card card-body">
-                    Welcoming Performance
-                    <br>Keynote Lecture by a Prominent Thai Scientist
-                    <br>Oral Research Presentation by
-                    <ul>
-                      <li>A selected Thai Student Research Group</li>
-                      <li>A selected Overseas Student Research Group</li>
-                    </ul>
+
+                    <img src="img\opening_Ceremony\Open_01.jpg" alt="Welcome" height="100%" width="100%">
+                    <img src="img\opening_Ceremony\Open_02.jpg" alt="Welcome" height="100%" width="100%">
+
                   </div>
                 </div>
 
@@ -514,7 +512,7 @@
                 <div class="speaker">
                   <img src="img\icon\sport_black.png" alt="Recreational Activities">
                 </div>
-                <h4>Music, Arts, Sports, and Recreational Activities</h4>
+                <a href = "recreational_activity.html"><h4>Music, Arts, Sports, and Recreational Activities <i class="material-icons md-15">info</i> </h4> </a>
                 <p>Main Building - Atrium</p>
               </div>
             </div>
@@ -594,7 +592,7 @@
           </div>
             <!-- End Schdule Day 4 -->
         </div>
-        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 14 Jan 2020</span></h3>
+        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 15 Jan 2020</span></h3>
 
       </div>
 
@@ -630,19 +628,19 @@
         <div class="tab-content row justify-content-center">
 
           <!-- Excursions -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="Excursions" style="background-color: #f0f8ff;">
+          <div role="tabpanel" class="col-lg-9 tab-pane fade active show" id="Excursions" style="background-color: #f0f8ff;">
             <img src="schedules\excursions_info.jpg" alt="Excursions" height="100%" width="100%">
           </div>
           <!-- End Excursions -->
 
 		  <!-- Principal’s Program -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade" id="Principal" style="background-color: #f0f8ff;">
-            <img src="img\schedule-thumbnail\Principal program__Page_1.jpg" alt="principal's program" width="100%">
-      			<img src="img\schedule-thumbnail\Principal program__Page_3.jpg" alt="principal's program" width="100%">
-      			<img src="img\schedule-thumbnail\Principal program__Page_4.jpg" alt="principal's program" width="100%">
-      			<img src="img\schedule-thumbnail\Principal program__Page_5.jpg" alt="principal's program" width="100%">
-      			<img src="img\schedule-thumbnail\Principal program__Page_6.jpg" alt="principal's program" width="100%">
-          </div>
+        <div role="tabpanel" class="col-lg-9 tab-pane fade" id="Principal" style="background-color: #f0f8ff;">
+          <img src="img\schedule-thumbnail\Principal program__Page_1.jpg" alt="principal's program" width="100%">
+          <img src="img\schedule-thumbnail\Principal program__Page_3.jpg" alt="principal's program" width="100%">
+          <img src="img\schedule-thumbnail\Principal program__Page_4.jpg" alt="principal's program" width="100%">
+          <img src="img\schedule-thumbnail\Principal program__Page_5.jpg" alt="principal's program" width="100%">
+          <img src="img\schedule-thumbnail\Principal program__Page_6.jpg" alt="principal's program" width="100%">
+        </div>
           <!-- End Principal’s Program -->
 
           <!-- Teachers -->
@@ -660,7 +658,7 @@
             <div class="row">
               <div class="col-lg-3" style="padding: 0;">
                 <!--categories -->
-                <div class="dropdown">
+                <div class="dropdown" style="border-bottom: 2px solid #fff;">
                   <a class="btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" style="width: 100%; background-color: #f8234a; border-radius: 0px;"><h5 style="margin: 5px 5px 10px 5px; color: #fff;">Rules and Categories</h5></a>
                   <ul class="nav pp dropdown-menu collapse">
                     <li class="nav-item col-12 col-lg-12" style="padding: 0px; background-color: #ccc; color:black;">
@@ -693,6 +691,7 @@
                   <!-- Presentation tabs -->
                 </ul>
               </div>
+              <div style="border-top: 2px solid #fff;"><a href="documents/Building plan - ISSF2020.pdf" class="btn" role="button" style="width: 100%; background-color: #f8234a; border-radius: 0px;"><h5 style="color: #fff; margin: 5px 5px 10px 5px;">Building Plan</h5></a></div>
             </div>
               <!--details -->
               <div class="col-lg-9 col-md-12" style="padding: 0px;">
@@ -777,7 +776,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Orbit Simulation by Using Fabric as Curved Spacetime</b>
@@ -794,7 +793,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Sound Intensification by Amplifying with Parabollic Reflectors</b>
@@ -811,7 +810,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Studying and modelling high-resistance layers of gallium nitride</b>
@@ -828,7 +827,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Investigation of the Effect of Temperature on the Speed of Light in Water</b>
@@ -845,7 +844,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>How many interstellar asteroids are in the Solar System at any given time?</b>
@@ -858,7 +857,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -868,7 +867,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Microsphere Optical Nanoscope</b>
@@ -885,7 +884,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      PHY07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Getting the scoop on Vanilloids; Nature’s favourite flavourings</b>
@@ -925,7 +924,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Synthesis of Activated Carbon Derived from Rice Husk using ZnCl₂ as Activating Agent for Heavy Metal Removal</b>
@@ -942,7 +941,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Cost-Effective Modulator for Comprehensive Two-Dimensional Gas Chromatography</b>
@@ -959,7 +958,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Synthesis of vanillin-based porphyrins and their applications</b>
@@ -976,7 +975,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Converting Biomass into Biofuel</b>
@@ -993,7 +992,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Synthesis of Tryptamine Derivatives-Potential Antitumor Drugs</b>
@@ -1006,7 +1005,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -1016,7 +1015,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Biodiesel</b>
@@ -1033,7 +1032,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The Effect of Heating Time of Canola Oil on the Specific Heat Capacity of Biodiesel Produced</b>
@@ -1050,7 +1049,7 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      CHEM08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Hydrogen Gas Production from Durian Shell and Sheep Dung</b>
@@ -1090,7 +1089,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Detection of long non-coding RNA in HIV-1 subtype CRF01_AE
@@ -1108,7 +1107,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Effects of Genetic and Pharmacologic Loss of the Notch4 Receptor on Angiogenesis</b>
@@ -1125,7 +1124,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Development of an antifungal bio-coating from mango kernel extract and
@@ -1143,7 +1142,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Subliminal Messages: From Myth to Reality</b>
@@ -1160,7 +1159,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Analysis of possible functional conservation between genes Oxr1 and Ncoa7</b>
@@ -1173,7 +1172,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -1183,7 +1182,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Localization of lamins during the cell cycle of mammalian cells that
@@ -1201,7 +1200,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Curing Sickle Cell Anaemia using CRISPR technology to edit the sickle cell mutation,
@@ -1219,7 +1218,7 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Computational Analysis of Glucagon Receptor (GCGR) and Antagonist Structures for Further
@@ -1237,7 +1236,7 @@
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The Diversity of Mesofauna as Bioindicator in Mangunan Protection Forest, Dlingo, Bantul, Yogyakarta, Indonesia</b>
@@ -1254,7 +1253,7 @@
                       11:30 - 11:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO10
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Emergency Hemostasis Gel for Inner and Outer Wound from Corn Husk Fiber</b>
@@ -1271,10 +1270,10 @@
                       11:45 - 12:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO11
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>Exploring Striatopallidal and IntrapallidalCircuitries in Relation to Parkinson's Disease</b>
+                      <b>Exploring Striatopallidal and Intrapallidal Circuitries in Relation to Parkinson's Disease</b>
                       <br>
                       S. Chalasani, Q. Cui
                     </div>
@@ -1284,7 +1283,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Lunch----------</b>
                     </div>
                   </div>
@@ -1294,7 +1293,7 @@
                       13:00 - 13:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO12
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>A Pill millipede Conglobation-inspired Motorcycle Design</b>
@@ -1311,7 +1310,7 @@
                       13:15 - 13:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO13
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Machine learning prediction of glioblastoma patient one-year survival using clinical and genomic data</b>
@@ -1328,10 +1327,10 @@
                       13:30 - 13:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO14
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>FEASIBILITY TO EVALUATE EMOTIONAL REGULATION USING PHYSIOLOGICAL SENSORS</b>
+                      <b>Feasibility to Evaluate Emotional Regulation Using Physiological Sensors</b>
                       <br>
                       P. Sasiangkul, S. Pinyo, T. Pongkemmanun, T. Leeboonngam
                     </div>
@@ -1345,7 +1344,7 @@
                       13:45 - 14:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO15
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Development of KIT for rapid and specific detection of Escherichia coli O157:H7</b>
@@ -1362,7 +1361,7 @@
                       14:00 - 14:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO16
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Development of an Approach to the Visualization of Epigenetic Landscapes</b>
@@ -1379,7 +1378,7 @@
                       14:15 - 14:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO17
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Protective Effect of Bacopasides on 7-Ketocholesterol Induced Damage in Human Brain Endothelial Cells</b>
@@ -1396,7 +1395,7 @@
                       14:30 - 14:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO18
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The Effectivity of Placenta-derived Cord Blood in Alloxan-Induced Sprague Dawley Rats</b>
@@ -1413,7 +1412,7 @@
                       14:45 - 15:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      BIO19
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The use of microbial biotechnology in the extraction of precious metals from e-waste</b>
@@ -1430,7 +1429,7 @@
                 <!--Math-->
                 <div role="tabpanel" class="col-12 tab-pane fade collapse" id="math" style="background-color: #f0f8ff;">
                   <div>
-                    <b>Math</b>
+                    <b>Mathematics</b>
                   </div>
 
                   <row class="row headd" style="background-color: pink">
@@ -1453,7 +1452,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Classes of Equally Likely Outcomes of a Riffle Shuffle on a Deck of Alternating Cards</b>
@@ -1470,7 +1469,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Discovering the relationship between Euclid’s algorithm and the number of digits by focusing on the Fibonacci sequence</b>
@@ -1487,7 +1486,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Integer complexity: a new approach</b>
@@ -1504,7 +1503,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Ruin Probability with a Constant Premium Rate in a Financial Corporation Model</b>
@@ -1521,7 +1520,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Study of Thai Artistic Patterns in terms of  Mathematical Functions</b>
@@ -1534,7 +1533,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -1544,7 +1543,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>On the properties of knots and links constructed from planar graphs</b>
@@ -1561,7 +1560,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Application of Infinite Series to Definite Integrals</b>
@@ -1578,7 +1577,7 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>A Sharp Trigonometric Double Inequality</b>
@@ -1595,7 +1594,7 @@
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MATH09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Factorization of finite groups into subsets</b>
@@ -1635,7 +1634,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Traveling Salesman Problem with a Time-Dependent Edge Length of the Unrestricted Model</b>
@@ -1652,7 +1651,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Proteins folding prediction using neural network</b>
@@ -1669,7 +1668,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Artificial Intelligence for Thai Fabric Patterns Generation Using Genetic Algorithm</b>
@@ -1686,7 +1685,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Image Analysis and Machine Learning For Scanning Electron Microscope Photography Classification of Fractures in Steel</b>
@@ -1703,10 +1702,10 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>BLOODSTAIN PATTERN ANALYSIS BY USING MACHINE LEARNING</b>
+                      <b>Bloodstain Pattern Analysis by Using Machine Learning</b>
                       <br>
                       M. Preechatiwong, P. Lorprasertkul, K. Sawangsri
                     </div>
@@ -1716,7 +1715,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -1726,7 +1725,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Primary Study for the Announcement of the Automobile License Plate Through Image Processing</b>
@@ -1743,7 +1742,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>A Novel Machine Learning Framework for Real Time Optimization of Taxi Dispatch Services</b>
@@ -1757,27 +1756,10 @@
 
                   <div class="row info">
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      11:00 - 11:15
-                    </div>
-                    <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
-                    </div>
-                    <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>Development of a Website and Database System for the Biodiversity and Vulnerable Ecosystems Research (BiVER) Program</b>
-                      <br>
-                      S. A. Ripalda, M. S. B. Omisol
-                    </div>
-                    <div class="col-2 room" style="padding: 0px 5px;">
-                      213
-                    </div>
-                  </div>
-
-                  <div class="row info">
-                    <div class="col-2 obje" style="padding: 0px 5px;">
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Wifi-Controlled Irrigation System</b>
@@ -1794,7 +1776,7 @@
                       11:30 - 11:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM10
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Development of an iOS Application for Real-time Spectral Classification of Stars Based on a Convolutional Neural Network</b>
@@ -1811,7 +1793,7 @@
                       11:45 - 12:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM11
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Simulating the optimal city</b>
@@ -1824,7 +1806,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Lunch----------</b>
                     </div>
                   </div>
@@ -1834,7 +1816,7 @@
                       13:00 - 13:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM12
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Edge-guided Anime Characters Generation</b>
@@ -1851,7 +1833,7 @@
                       13:15 - 13:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM13
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Flow OS -Waterish --Water Usage Monitoring and Reporting Ecosystem</b>
@@ -1868,7 +1850,7 @@
                       13:30 - 13:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      COM14
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Study to increase the flying distance of UAV using solar panels</b>
@@ -1908,7 +1890,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Aromatherapy Automatic Control System using Brain Computer Interface</b>
@@ -1925,7 +1907,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Xspine</b>
@@ -1942,7 +1924,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Investigating the effect of electricity to the size of particle in suspension for reducing fouling in pipe</b>
@@ -1959,7 +1941,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Reversible Thermo-C fuse</b>
@@ -1976,7 +1958,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Improving the Cost Efficiency of Atmospheric Water Harvesting</b>
@@ -1989,7 +1971,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -1999,7 +1981,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Manipulating Varied Electrodes to Optimize Microbial Fuel Cells</b>
@@ -2016,7 +1998,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Design of Dynamic Antifouling Surfaces using Protein Monolayer</b>
@@ -2033,7 +2015,7 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Sensor to detect and improve improper posture</b>
@@ -2050,7 +2032,7 @@
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENG09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Intellectual notification system “Smart Window”</b>
@@ -2090,7 +2072,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Development of Composite Materials from Natural Rubber with
@@ -2108,7 +2090,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Effect of temperature on the hysteresis effect</b>
@@ -2125,7 +2107,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The investigation of bio-degradable plastic for the substrate of Lingzhimushroom spawn</b>
@@ -2142,7 +2124,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Carbon Aerogel Derived from Watermelon Peel for Oil Spill Treatment</b>
@@ -2159,7 +2141,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Self-Healing Rigid Polyurethane Foam Synthesis by Encapsulation Method</b>
@@ -2172,7 +2154,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -2182,7 +2164,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Developing the Efficiency of Photovoltaic Cell by Using Carbon Nanoparticle Instead of Dye</b>
@@ -2199,10 +2181,10 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>BIOPLASTICS PREPARATION FROM DURIAN PEEL’S CMC AND FLOURS USING TWIN SCREW EXTRUDER FOR BIODEGRADABLE FILM APPLICATION</b>
+                      <b>Bioplastics Preparation From Durian Peel’s CMC And Flours Using Twin Screw Extruder For Biodegradable Film Application</b>
                       <br>
                       N. Natekuekool, P. Hiranayachatri, S. Nounjeen
                     </div>
@@ -2216,10 +2198,10 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>Eichhorniacrassipesas Tree-Free Paper Alternative</b>
+                      <b><i>Eichhornia crassipes</i> Tree-Free Paper Alternative</b>
                       <br>
                       F. A. Hosea, A. Permana
                     </div>
@@ -2233,7 +2215,7 @@
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      MAT09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Investigate in making Geopolymer as a green material, prioritizing to replace wood.</b>
@@ -2273,7 +2255,7 @@
                       09:00 - 09:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV01
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Oil Absorbent Material Based on Natural Rubber</b>
@@ -2290,7 +2272,7 @@
                       09:15 - 09:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV02
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>The impact that plastic waste has on marine lives: an assessment of the impact on sea turtles</b>
@@ -2307,7 +2289,7 @@
                       09:30 - 09:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV03
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Can casein be used to make practical, single-use biodegradable plastic cutlery?</b>
@@ -2324,7 +2306,7 @@
                       09:45 - 10:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV04
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Investigation of polyethylene degradation by Bacillus cereus using peptone extract from peanut shells</b>
@@ -2341,7 +2323,7 @@
                       10:00 - 10:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV05
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>What do students of the ASMS think of the Sense of Community at school and how does it compare to the current literature on Sense of Community?</b>
@@ -2354,7 +2336,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Break----------</b>
                     </div>
                   </div>
@@ -2364,7 +2346,7 @@
                       10:30 - 10:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV06
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Application of aerial imagery by UAV for fault surveys around Hatyai basin, Songkhla Province</b>
@@ -2381,7 +2363,7 @@
                       10:45 - 11:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV07
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Environmental Monitoring Through Probable Devices: A Case Study of Urban Mico-Ecological Research</b>
@@ -2398,7 +2380,7 @@
                       11:00 - 11:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV08
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Australian Automatic Self-Irrigating System</b>
@@ -2415,7 +2397,7 @@
                       11:15 - 11:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV09
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Bioremediation of Heavy Metal Lead (Pb) and Copper (Cu) in the Lapindo Mudflow using Microalgae Chlorella pyrenoidosa</b>
@@ -2432,7 +2414,7 @@
                       11:30 - 11:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV10
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Exploring the Use of Cattails as a Natural Fertilizer</b>
@@ -2449,7 +2431,7 @@
                       11:45 - 12:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV11
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Plasteriase: Mutating a Bacterial PET-degrading Enzyme</b>
@@ -2462,7 +2444,7 @@
                   </div>
 
                   <div class="row info">
-                    <div class="col-12 obje" style="padding: 0px 5px; text-align: center;">
+                    <div class="col-12 break" style="padding: 0px 5px; text-align: center;">
                       <b>----------Lunch----------</b>
                     </div>
                   </div>
@@ -2472,7 +2454,7 @@
                       13:00 - 13:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV12
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Evaluation tools for distributed small-scaled plastic recycling systems</b>
@@ -2489,7 +2471,7 @@
                       13:15 - 13:30
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV13
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>How to use natural zeolite for environmentally friendly purification of contaminated water</b>
@@ -2506,7 +2488,7 @@
                       13:30 - 13:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV14
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>How can the composting environment be manipulated to increase the efficiency of cotton composting?</b>
@@ -2523,7 +2505,7 @@
                       13:45 - 14:00
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV15
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>A study on the influence of jet stream on the quantitative characteristics of fine dust adsorbent components</b>
@@ -2540,7 +2522,7 @@
                       14:00 - 14:15
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV16
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
                       <b>Wastewater treatment and Charcoal kiln with dark smoke filtered box</b>
@@ -2554,30 +2536,13 @@
 
                   <div class="row info">
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      14:15 - 14:30
-                    </div>
-                    <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
-                    </div>
-                    <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>Seagrass Distribution Mapping of Cuatro Islas, Philippines</b>
-                      <br>
-                      J. L. G. Amores
-                    </div>
-                    <div class="col-2 room" style="padding: 0px 5px;">
-                      332
-                    </div>
-                  </div>
-
-                  <div class="row info">
-                    <div class="col-2 obje" style="padding: 0px 5px;">
                       14:30 - 14:45
                     </div>
                     <div class="col-2 obje" style="padding: 0px 5px;">
-                      PHY01A
+                      ENV18
                     </div>
                     <div class="col-6 obje" style="padding: 0px 5px;">
-                      <b>CLIMATE CHANGE: THE VICIOUS CYCLE</b>
+                      <b>Climate Change: The Vicious Cycle</b>
                       <br>
                       C. D. Yu, G. S. Tian, Candice, Lim
                     </div>

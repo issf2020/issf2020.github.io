@@ -835,6 +835,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+#gallery .nav-tabs {
+  position: absolute;
+  left: 25%;
+}
 
 #programs .nav-tabs li {
   display: inline-block;

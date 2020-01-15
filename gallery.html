@@ -1,37 +1,9 @@
-<html lang="en" class="gr__app_kvis_ac_th"><script id="allow-copy_script">(function agent() {
-    let isUnlockingCached = false
-    const isUnlocking = () => isUnlockingCached
-    document.addEventListener('allow_copy', event => {
-      const { unlock } = event.detail
-      isUnlockingCached = unlock
-    })
+<!DOCTYPE html>
+<html lang="en">
 
-    const copyEvents = [
-      'copy',
-      'cut',
-      'contextmenu',
-      'selectstart',
-      'mousedown',
-      'mouseup',
-      'mousemove',
-      'keydown',
-      'keypress',
-      'keyup',
-    ]
-    const rejectOtherHandlers = e => {
-      if (isUnlocking()) {
-        e.stopPropagation()
-        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
-      }
-    }
-    copyEvents.forEach(evt => {
-      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
-        capture: true,
-      })
-    })
-  })()</script><head>
+<head>
   <meta charset="utf-8">
-  <title>News - 16th International Students’ Science Fair</title>
+  <title>Recreational Activities - 16th International Students’ Science Fair</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -60,7 +32,7 @@
 
 </head>
 
-<body data-gr-c-s-loaded="true"><button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>
+<body>
 
   <!--==========================
     Header
@@ -73,7 +45,7 @@
       </div>
 
       <nav id="nav-menu-container">
-        <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+        <ul class="nav-menu">
           <li class="menu-active"><a href="index.html#intro">Home</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#schedule">Schedule</a></li>
@@ -92,16 +64,83 @@
     <!--==========================
       Speaker Details Section
     ============================-->
-    <section id="venue" class="section-with-bg">
+    <section id="gallery" class="section-with-bg">
           <div class="container wow" style="visibility: visible; animation-name: fadeInUp;">
             <div class="section-header">
-              <h2>Your photos will be here.<br>16 January 2020</h2>
+              <h2>Gallery</h2>
               <p></p>
             </div>
 
+            <p></p>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="details">
+                  <h2>15<sup>th</sup> of January 2020</h2>
+                </div>
+
+                <div class="container-fluid venue-gallery-container">
+                  <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_018.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_018.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_019.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_019.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_020.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_020.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_021.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_021.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_022.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_022.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-12">
+                      <div class="venue-gallery">
+                        <a href="img\15_Jan_2020\15JAN2020_DAY0_023.jpg" class="venobox" data-gall="venue-gallery">
+                          <img src="img\15_Jan_2020\15JAN2020_DAY0_023.jpg" alt="" class="img-fluid">
+                        </a>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              <p></p>
+
+              </div>
+          </div>
+
+
         </div>
     </section>
-
   </main>
 
 
@@ -192,18 +231,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+</body>
 
-
-
-<nav id="mobile-nav">
-        <ul class="" style="touch-action: pan-y;" id="">
-          <li class="menu-active"><a href="index.html#intro">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#schedule">Schedule</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#speakers">Speakers</a></li>
-          <li><a href="index.html#venue">Venue</a></li>
-          <li><a href="index.html#footer">Contact</a></li>
-          <!-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> -->
-        </ul>
-      </nav><div id="mobile-body-overly"></div></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
+</html>

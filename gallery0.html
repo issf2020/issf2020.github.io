@@ -1,35 +1,4 @@
-<html lang="en" class="gr__app_kvis_ac_th"><script id="allow-copy_script">(function agent() {
-    let isUnlockingCached = false
-    const isUnlocking = () => isUnlockingCached
-    document.addEventListener('allow_copy', event => {
-      const { unlock } = event.detail
-      isUnlockingCached = unlock
-    })
-
-    const copyEvents = [
-      'copy',
-      'cut',
-      'contextmenu',
-      'selectstart',
-      'mousedown',
-      'mouseup',
-      'mousemove',
-      'keydown',
-      'keypress',
-      'keyup',
-    ]
-    const rejectOtherHandlers = e => {
-      if (isUnlocking()) {
-        e.stopPropagation()
-        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
-      }
-    }
-    copyEvents.forEach(evt => {
-      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
-        capture: true,
-      })
-    })
-  })()</script><head>
+<html lang="en" class="gr__app_kvis_ac_th"><head>
   <meta charset="utf-8">
   <title>News - 16th International Students’ Science Fair</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -92,7 +61,7 @@
     <!--==========================
       Speaker Details Section
     ============================-->
-    <section id="venue" class="section-with-bg">
+    <section id="gallery" class="section-with-bg">
           <div class="container wow" style="visibility: visible; animation-name: fadeInUp;">
             <div class="section-header">
               <h2>Gallery</h2>

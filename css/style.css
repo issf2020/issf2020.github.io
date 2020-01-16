@@ -836,8 +836,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .nav-tabs {
-  position: absolute;
-  left: 25%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+#gallery .nav-tabs li {
+  display: inline-block;
 }
 
 #programs .nav-tabs li {

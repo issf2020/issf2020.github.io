@@ -186,7 +186,7 @@
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-0" role="tab" data-toggle="tab">15 January 2020</a>
+            <a class="nav-link " href="#day-0" role="tab" data-toggle="tab">15 January 2020</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#day-1" role="tab" data-toggle="tab">16 January 2020</a>
@@ -198,7 +198,7 @@
             <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">18 January 2020</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">19 January 2020</a>
+            <a class="nav-link active" href="#day-4" role="tab" data-toggle="tab">19 January 2020</a>
           </li>
         </ul>
 
@@ -567,7 +567,7 @@
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>17:00 - 18:00</time></div>
+              <div class="col-md-2"><time>17:00 - 18:45</time></div>
               <div class="col-md-10">
                 <div class="speaker">
                   <img src="img\icon\closing_ceremony.png" alt="Closing Ceremony">
@@ -578,20 +578,20 @@
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>18:15 - 22:30</time></div>
+              <div class="col-md-2"><time>19:00 - 22:30</time></div>
               <div class="col-md-10">
                 <div class="speaker">
                   <img src="img\icon\wedding_dinner_black.png" alt="Farewell Party">
                 </div>
                 <h4>Cultural Performances and Farewell Party</h4>
-                <p>Main Building- 2nd floor</p>
+                <p>Main Building- 1st floor</p>
               </div>
             </div>
 
           </div>
             <!-- End Schdule Day 4 -->
         </div>
-        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 15 Jan 2020</span></h3>
+        <h3 class="sub-heading"><br><span class="pull-right">Last Updated: 19 Jan 2020</span></h3>
 
       </div>
 

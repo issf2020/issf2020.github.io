@@ -75,8 +75,9 @@
               </div>
 
               <div class="modal-body">
-                  <img src="img\resize_Banner_Welcome_issf2020.jpg" alt="Welcome" height="100%" width="100%"><p></p>
-                  <p></p>
+                  <img src="img\resize_Banner_Closing_issf2020.png" alt="Welcome" height="100%" width="100%"><p></p>
+                  <p style="font-size: 26px; font-family: 'Raleway',sans-serif;  margin: 0px;">The closing ceremony is <b style="color: #f82249;">17:00-18:45.</b></p>
+                  <p style="font-size: 26px; font-family: 'Raleway',sans-serif;  ">The farewell party starts at <b style="color: #f82249;">19:00.</b></p>
               </div>
           </div>
       </div>

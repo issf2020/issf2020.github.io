@@ -65,7 +65,7 @@
   </head>
 
 <body>
-  <!-- Add Modal (Auto show when loading this page) -->
+  <!-- Add Modal (Auto show when loading this page)
   <div id="myModal" class="modal fade">
       <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
@@ -81,7 +81,7 @@
               </div>
           </div>
       </div>
-  </div>
+  </div> -->
 
   <!--==========================
     Header
@@ -118,7 +118,6 @@
       <h1 class="mb-0 pb-0"><span>ISSF 2020</span><br><h2><b>16<sup>th</sup> International Students’ Science Fair</font></b></h2></h1>
       <p1 class="mb-0 pb-0">Kamnoetvidya Science Academy, Thailand<br>15-20 January 2020</p>
 
-        <h2><span id="demo">1 Days  12H 12M 12S </span></h2>
             <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: auto;">
               <li class="nav-item col-auto">
                 <a href="#about" class="about-btn scrollto">About The Event</a>
@@ -2784,36 +2783,6 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
-  <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Jan 16, 2020 09:00:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get today's date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Output the result in an element with id="demo"
-      document.getElementById("demo").innerHTML = days + " Days  " + hours + "H "
-      + minutes + "M " + seconds + "S ";
-
-      // If the count down is over, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "Welcome To ISSF 2020!";
-      }
-    }, 1000);
-  </script>
 </body>
 
 </html>

@@ -65,7 +65,6 @@
   </head>
 
 <body>
-  <!-- Add Modal (Auto show when loading this page)
   <div id="myModal" class="modal fade">
       <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
@@ -75,13 +74,14 @@
               </div>
 
               <div class="modal-body">
-                  <img src="img\resize_Banner_Closing_issf2020.png" alt="Welcome" height="100%" width="100%"><p></p>
-                  <p style="font-size: 26px; font-family: 'Raleway',sans-serif;  margin: 0px;">The closing ceremony is <b style="color: #f82249;">17:00-18:45.</b></p>
-                  <p style="font-size: 26px; font-family: 'Raleway',sans-serif;  ">The farewell party starts at <b style="color: #f82249;">19:00.</b></p>
+                  Click at the picture for more information.
+                  <a href = "news.html"><img src="img\Newsletter Special Edition_modal.jpg" alt="Newsletter Special Edition" height="100%" width="100%"><p></p>
+                  <img src="img\Newsletter Day 5_20 Jan 2020_modal.jpg" alt="Newsletter 19 Jan 2020" height="100%" width="100%"><p></p>
+                </a>
               </div>
           </div>
       </div>
-  </div> -->
+  </div>
 
   <!--==========================
     Header
@@ -168,7 +168,7 @@
           <div class="col-md-12">
             <h2>Featured video</h2>
             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="443" type="text/html"
-            src="https://www.youtube.com/embed/h42PJUd9Krc?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&hl=en&modestbranding=1&color=white"></iframe>
+            src="https://www.youtube.com/embed/8ZrGHtDn02I?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&hl=en&modestbranding=1&color=white"></iframe>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link " href="#day-0" role="tab" data-toggle="tab">15 January 2020</a>
+            <a class="nav-link active" href="#day-0" role="tab" data-toggle="tab">15 January 2020</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#day-1" role="tab" data-toggle="tab">16 January 2020</a>
@@ -198,7 +198,7 @@
             <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">18 January 2020</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#day-4" role="tab" data-toggle="tab">19 January 2020</a>
+            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">19 January 2020</a>
           </li>
         </ul>
 
@@ -207,7 +207,7 @@
         <div class="tab-content row justify-content-center">
 
           <!-- Schdule Day 0 -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show" id="day-0" style="background-color: #f0f8ff;">
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-0" style="background-color: #f0f8ff;">
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>09:00 - 17:00</time></div>
@@ -542,7 +542,7 @@
           <!-- End Schdule Day 3 -->
 
           <!-- Schdule Day 4 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade show active" id="day-4" style="background-color: #f0f8ff;">
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-4" style="background-color: #f0f8ff;">
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>06:00 - 17:00</time></div>
@@ -2636,8 +2636,8 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Event Speakers</h2>
-          <p>Here are some of our speakers</p>
+          <h2>Event Speaker</h2>
+          <p>This is our speaker</p>
         </div>
 
         <div class="row">
